@@ -151,7 +151,8 @@ MonoBehaviour:
   m_RenderPipelineResources: {fileID: 11400000, guid: 3ce144cff5783da45aa5d4fdc2da14b7,
     type: 2}
   m_RenderPipelineRayTracingResources: {fileID: 0}
-  m_DefaultVolumeProfile: {fileID: 0}
+  m_DefaultVolumeProfile: {fileID: 11400000, guid: 75e43f6c78b2c2f46aed2fb972f84df4,
+    type: 2}
   m_DefaultLookDevProfile: {fileID: 0}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
@@ -344,8 +345,8 @@ MonoBehaviour:
   m_DefaultMaterialQualityLevel: 4
   diffusionProfileSettings: {fileID: 0}
   diffusionProfileSettingsList:
-  - {fileID: 11400000, guid: 2ebefe8fcab64a049af6f0ae5ae0584f, type: 2}
-  - {fileID: 11400000, guid: 8d56cb745aa76bc49b7d576cbed38876, type: 2}
+  - {fileID: 11400000, guid: 45410e5d0889832439fb9e81049ddd68, type: 2}
+  - {fileID: 11400000, guid: 415d1dfdfea15a445ad1cfe8ae11a7e5, type: 2}
   beforeTransparentCustomPostProcesses: []
   beforePostProcessCustomPostProcesses: []
   afterPostProcessCustomPostProcesses: []
