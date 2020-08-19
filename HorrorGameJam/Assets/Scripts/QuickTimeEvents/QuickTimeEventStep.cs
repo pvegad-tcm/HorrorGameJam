@@ -8,8 +8,3 @@ public class QuickTimeEventStep
     public float InputNeededLength;
     public QuickTimeEventType Type;
 }
-
-public enum QuickTimeEventType
-{
-    SinglePress, Hold
-}

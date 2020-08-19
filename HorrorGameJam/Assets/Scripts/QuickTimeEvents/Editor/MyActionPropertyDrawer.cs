@@ -1,10 +1,11 @@
+using System;
 using UnityEditor;
 using UnityEngine;
 
 [CustomPropertyDrawer(typeof(QuickTimeEventStep))]
 public class MyActionPropertyDrawer : PropertyDrawer
 {
-    //TODO: check how to unharcode the name of the variables in a string
+    //TODO: check how to unhardcode the name of the variables in a string
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
     {
         EditorGUI.BeginProperty(position, label, property);
@@ -28,8 +29,10 @@ public class MyActionPropertyDrawer : PropertyDrawer
             case QuickTimeEventType.SinglePress:
                 break;
             case QuickTimeEventType.Hold:
-                length.floatValue = EditorGUI.FloatField(timeRect, "Length of hold in seconds",length.floatValue);
+                length.floatValue = EditorGUI.FloatField(timeRect, "Hold in seconds",length.floatValue);
                 break;
+            default:
+                throw new ArgumentOutOfRangeException();
         }
  
         EditorGUI.indentLevel = indent;
