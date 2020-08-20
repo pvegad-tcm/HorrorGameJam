@@ -51,7 +51,7 @@ namespace VHS
                 RaycastHit _hitInfo;
 
                 bool _hitSomething = Physics.SphereCast(_ray,raySphereRadius, out _hitInfo, rayDistance, interactableLayer);
-
+    
                 if(_hitSomething)
                 {
                     InteractableBase _interactable = _hitInfo.transform.GetComponent<InteractableBase>();
@@ -102,27 +102,8 @@ namespace VHS
 
                 if(m_interacting)
                 {
-                    if(!interactionData.Interactable.IsInteractable)
-                        return;
-
-                    if(interactionData.Interactable.HoldInteract)
-                    {
-                        m_holdTimer += Time.deltaTime;
-
-                        float heldPercent = m_holdTimer / interactionData.Interactable.HoldDuration;
-                        uiPanel.UpdateProgressBar(heldPercent);
-
-                        if(heldPercent > 1f)
-                        {
-                            interactionData.Interact();
-                            m_interacting = false;
-                        }
-                    }
-                    else
-                    {
-                        interactionData.Interact();
-                        m_interacting = false;
-                    }
+                    interactionData.Interact();
+                    m_interacting = false;
                 }
             }
         #endregion
