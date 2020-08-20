@@ -3,10 +3,9 @@
 public class QTEInstaller : MonoBehaviour
 {
     [SerializeField] private QTEView _view;
-    [SerializeField] private QuickTimeEventTemplate _qteTemplate;
-    private void Awake()
+    public void Install(QuickTimeEventTemplate template)
     {
-        var model = new QTEModel(_qteTemplate);
-        var mediator = new QTEMediator(_qteTemplate, model, _view);
+        var model = new QTEModel(template);
+        var mediator = new QTEMediator(template, model, _view);
     }
 }
