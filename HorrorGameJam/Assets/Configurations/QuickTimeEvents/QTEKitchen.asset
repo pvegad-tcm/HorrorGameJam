@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e256f81b35d4d8343b38074986b53f0d, type: 3}
-  m_Name: QuickTimeEventTestSequence
+  m_Name: QTEKitchen
   m_EditorClassIdentifier: 
   QuickTimeEventSteps:
-  - InputKeyCode: 47
-    InputNeededLength: 0
+  - InputKeyCode: 57
+    InputNeededLength: 5
     Type: 0
-  - InputKeyCode: 46
-    InputNeededLength: 3
-    Type: 1
+    CallbackAnimation: {fileID: 0}
