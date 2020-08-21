@@ -27,7 +27,7 @@ public class MyActionPropertyDrawer : PropertyDrawer
         var callback = property.FindPropertyRelative("CallbackAnimation");
  
         type.intValue = EditorGUI.Popup(typeRect, "Type", type.intValue, type.enumNames);
-        key.intValue = EditorGUI.Popup(keyRect, "Key", key.intValue, key.enumNames);
+        key.enumValueIndex = EditorGUI.Popup(keyRect, "Key", key.enumValueIndex, key.enumNames);
         callback.objectReferenceValue = EditorGUI.ObjectField(callbackRect, "Callback", callback.objectReferenceValue, typeof(TimelineAsset), true);
 
         switch ((QuickTimeEventType)type.intValue)

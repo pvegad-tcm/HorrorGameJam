@@ -10,12 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e256f81b35d4d8343b38074986b53f0d, type: 3}
-  m_Name: QuickTimeEventTestSequence
+  m_Name: Quick Time Event Tes
   m_EditorClassIdentifier: 
+  _installer: {fileID: 0}
   QuickTimeEventSteps:
-  - InputKeyCode: 47
+  - InputKeyCode: 97
     InputNeededLength: 0
     Type: 0
-  - InputKeyCode: 46
-    InputNeededLength: 3
-    Type: 1
+    CallbackAnimation: {fileID: 0}
+  - InputKeyCode: 98
+    InputNeededLength: 0
+    Type: 0
+    CallbackAnimation: {fileID: 0}
