@@ -6,10 +6,8 @@ public class QTEModel
 {
     public bool QTEIsActive;
     public bool UserCanInteract;
-    //TODO: usar la config, solo guardar el indice ene l modelo
     public int CurrentQTEIndex;
     public QuickTimeEventStep[] QTESteps;
-    public UnityEvent KeyPressed;
     public double TimeHolding;
 
 
@@ -19,10 +17,6 @@ public class QTEModel
         UserCanInteract = true;
         CurrentQTEIndex = 0;
         QTESteps = quickTimeEventTemplate.QuickTimeEventSteps;
-        Debug.Log(quickTimeEventTemplate.QuickTimeEventSteps[0].InputKeyCode);
-        Debug.Log(quickTimeEventTemplate.QuickTimeEventSteps[1].InputKeyCode);
-        if (KeyPressed == null)
-            KeyPressed = new UnityEvent();
     }
 
     public bool IsCurrentQTEStepCompleted()
@@ -51,7 +45,6 @@ public class QTEModel
 
     public void UpdateCurrentQTEIndex()
     {
-        //move to commands
         CurrentQTEIndex++;
     }
 }

@@ -11,7 +11,7 @@ namespace Interactions
         public override void OnInteract()
         {
             _qteInstaller.Install(_template);
-            Debug.Log("Installation completed."); //TODO: delete
+            gameObject.SetActive(false);
         }
     }
 }

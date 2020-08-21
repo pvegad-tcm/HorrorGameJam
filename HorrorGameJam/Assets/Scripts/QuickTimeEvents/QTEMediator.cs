@@ -9,7 +9,6 @@ public class QTEMediator
     private readonly OnQTEStepCompleted _onStepCompleted;
 
     public QTEMediator(
-        QuickTimeEventTemplate template,
         QTEModel model,
         QTEView view,
         OnQTEStepCompleted onStepCompleted)
@@ -20,7 +19,7 @@ public class QTEMediator
 
         UpdateKeyImage();
         _view.KeyImage.enabled = true;
-        
+
         CoroutineMaker.Instance.StartCoroutine(CheckInput());
     }
 
@@ -32,7 +31,7 @@ public class QTEMediator
             {
                 yield return null;
             }
-            
+
             if (CorrectKeyReleased())
             {
                 _model.TimeHolding = 0;
@@ -50,12 +49,19 @@ public class QTEMediator
     private void OnCorrectKeyPressed()
     {
         _model.TimeHolding += Time.deltaTime;
-        
+
         if (_model.IsCurrentQTEStepCompleted())
         {
             if (_model.IsQTECompleted())
             {
                 StopQTE();
+                if (_model.QTESteps[_model.CurrentQTEIndex].CallbackAnimation != null)
+                {
+                    _model.UserCanInteract = false;
+                    _view.AnimationTimeline.playableAsset = _model.QTESteps[_model.CurrentQTEIndex].CallbackAnimation;
+                    _view.AnimationTimeline.Play();
+                    _view.KeyImage.enabled = false;
+                }
             }
             else
             {
@@ -65,10 +71,11 @@ public class QTEMediator
                     _view.AnimationTimeline.playableAsset = _model.QTESteps[_model.CurrentQTEIndex].CallbackAnimation;
                     _view.AnimationTimeline.stopped += OnPlayableDirectorStopped;
                     _view.AnimationTimeline.Play();
+                    _view.KeyImage.enabled = false;
                 }
                 else
                 {
-                    UpdateQTEStep();                    
+                    UpdateQTEStep();
                 }
             }
         }
@@ -106,5 +113,6 @@ public class QTEMediator
     {
         var nameOfKeyCode = _model.QTESteps[_model.CurrentQTEIndex].InputKeyCode.ToString();
         _view.KeyImage.sprite = Resources.Load<Sprite>(nameOfKeyCode);
+        _view.KeyImage.enabled = true;
     }
 }
