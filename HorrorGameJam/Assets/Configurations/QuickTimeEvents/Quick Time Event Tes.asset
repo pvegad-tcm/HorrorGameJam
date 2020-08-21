@@ -14,11 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _installer: {fileID: 0}
   QuickTimeEventSteps:
-  - InputKeyCode: 97
-    InputNeededLength: 0
-    Type: 0
-    CallbackAnimation: {fileID: 0}
   - InputKeyCode: 98
+    InputNeededLength: 2
+    Type: 1
+    CallbackAnimation: {fileID: 11400000, guid: 3c3d968c57c57454fba56b8893a49ad4,
+      type: 2}
+  - InputKeyCode: 110
     InputNeededLength: 0
     Type: 0
     CallbackAnimation: {fileID: 0}

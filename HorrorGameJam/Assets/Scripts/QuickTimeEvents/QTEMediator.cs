@@ -26,8 +26,13 @@ public class QTEMediator
 
     private IEnumerator CheckInput()
     {
-        while (true)
+        while (_model.QTEIsActive)
         {
+            if (!_model.UserCanInteract)
+            {
+                yield return null;
+            }
+            
             if (CorrectKeyReleased())
             {
                 _model.TimeHolding = 0;
@@ -35,24 +40,50 @@ public class QTEMediator
 
             if (IsPressingCorrectKey())
             {
-                _model.TimeHolding += Time.deltaTime;
-                if (_model.IsCurrentQTEStepCompleted())
-                {
-
-                    if (!_model.IsQTECompleted())
-                    {
-                        UpdateQTEStep();
-                    }
-                    else
-                    {
-                        _view.KeyImage.enabled = false;
-                        yield break;
-                    }
-                }
+                OnCorrectKeyPressed();
             }
 
             yield return null;
         }
+    }
+
+    private void OnCorrectKeyPressed()
+    {
+        _model.TimeHolding += Time.deltaTime;
+        
+        if (_model.IsCurrentQTEStepCompleted())
+        {
+            if (_model.IsQTECompleted())
+            {
+                StopQTE();
+            }
+            else
+            {
+                if (_model.QTESteps[_model.CurrentQTEIndex].CallbackAnimation != null)
+                {
+                    _model.UserCanInteract = false;
+                    _view.AnimationTimeline.playableAsset = _model.QTESteps[_model.CurrentQTEIndex].CallbackAnimation;
+                    _view.AnimationTimeline.stopped += OnPlayableDirectorStopped;
+                    _view.AnimationTimeline.Play();
+                }
+                else
+                {
+                    UpdateQTEStep();                    
+                }
+            }
+        }
+    }
+
+    private void OnPlayableDirectorStopped(PlayableDirector obj)
+    {
+        _view.AnimationTimeline.stopped -= OnPlayableDirectorStopped;
+        UpdateQTEStep();
+    }
+
+    private void StopQTE()
+    {
+        _view.KeyImage.enabled = false;
+        _model.QTEIsActive = false;
     }
 
     private bool IsPressingCorrectKey()
@@ -76,17 +107,4 @@ public class QTEMediator
         var nameOfKeyCode = _model.QTESteps[_model.CurrentQTEIndex].InputKeyCode.ToString();
         _view.KeyImage.sprite = Resources.Load<Sprite>(nameOfKeyCode);
     }
-
-    private void Dispose()
-    {
-        //TODO: call
-        //TODO: add desuscription
-    }
 }
-
-//Debug.Log("Showing callback anim");
-/*_view.KeyImage.enabled = false;
-
-_view.AnimationTimeline.playableAsset = _model.CurrentQTEStep.CallbackAnimation;
-_view.AnimationTimeline.stopped += OnPlayableDirectorStopped;
-_view.AnimationTimeline.Play();*/

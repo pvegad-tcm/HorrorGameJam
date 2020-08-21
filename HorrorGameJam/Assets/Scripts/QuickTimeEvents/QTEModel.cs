@@ -4,6 +4,9 @@ using UnityEngine.Events;
 
 public class QTEModel
 {
+    public bool QTEIsActive;
+    public bool UserCanInteract;
+    //TODO: usar la config, solo guardar el indice ene l modelo
     public int CurrentQTEIndex;
     public QuickTimeEventStep[] QTESteps;
     public UnityEvent KeyPressed;
@@ -12,6 +15,8 @@ public class QTEModel
 
     public QTEModel(QuickTimeEventTemplate quickTimeEventTemplate)
     {
+        QTEIsActive = true;
+        UserCanInteract = true;
         CurrentQTEIndex = 0;
         QTESteps = quickTimeEventTemplate.QuickTimeEventSteps;
         Debug.Log(quickTimeEventTemplate.QuickTimeEventSteps[0].InputKeyCode);
