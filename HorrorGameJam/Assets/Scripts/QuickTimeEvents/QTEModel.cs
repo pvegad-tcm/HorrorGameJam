@@ -4,55 +4,49 @@ using UnityEngine.Events;
 
 public class QTEModel
 {
-    public QuickTimeEventStep currentQTEStep
-    {
-        get => qteSteps[currentQTEIndex];
-    }
-
-    public int currentQTEIndex;
-    public QuickTimeEventStep[] qteSteps;
-    public QuickTimeEventStep CurrentQTEStep;
+    public int CurrentQTEIndex;
+    public QuickTimeEventStep[] QTESteps;
     public UnityEvent KeyPressed;
     public double TimeHolding;
 
 
     public QTEModel(QuickTimeEventTemplate quickTimeEventTemplate)
     {
-        currentQTEIndex = 0;
-        qteSteps = quickTimeEventTemplate.QuickTimeEventSteps;
+        CurrentQTEIndex = 0;
+        QTESteps = quickTimeEventTemplate.QuickTimeEventSteps;
         Debug.Log(quickTimeEventTemplate.QuickTimeEventSteps[0].InputKeyCode);
         Debug.Log(quickTimeEventTemplate.QuickTimeEventSteps[1].InputKeyCode);
-        CurrentQTEStep = quickTimeEventTemplate.QuickTimeEventSteps[0];
-        //if (KeyPressed == null)
-        //    KeyPressed = new UnityEvent();
-
+        if (KeyPressed == null)
+            KeyPressed = new UnityEvent();
     }
 
     public bool IsCurrentQTEStepCompleted()
     {
         //TODO: change with polimorphysm
-        if (qteSteps[currentQTEIndex].Type == QuickTimeEventType.SinglePress)
+        if (QTESteps[CurrentQTEIndex].Type == QuickTimeEventType.SinglePress)
         {
             return true;
         }
-        if (qteSteps[currentQTEIndex].Type == QuickTimeEventType.Hold)
+
+        if (QTESteps[CurrentQTEIndex].Type == QuickTimeEventType.Hold)
         {
-            if (TimeHolding >= qteSteps[currentQTEIndex].InputNeededLength)
+            if (TimeHolding >= QTESteps[CurrentQTEIndex].InputNeededLength)
             {
                 return true;
             }
         }
+
         return false;
     }
 
     public bool IsQTECompleted()
     {
-        return currentQTEIndex >= qteSteps.Length;
+        return CurrentQTEIndex >= QTESteps.Length - 1;
     }
 
     public void UpdateCurrentQTEIndex()
     {
         //move to commands
-        currentQTEIndex++;
+        CurrentQTEIndex++;
     }
 }

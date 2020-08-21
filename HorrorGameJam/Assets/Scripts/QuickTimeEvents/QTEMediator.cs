@@ -6,14 +6,21 @@ public class QTEMediator
 {
     private QTEModel _model;
     private readonly QTEView _view;
+    private readonly OnQTEStepCompleted _onStepCompleted;
 
-    public QTEMediator(QuickTimeEventTemplate template, QTEModel model, QTEView view)
+    public QTEMediator(
+        QuickTimeEventTemplate template,
+        QTEModel model,
+        QTEView view,
+        OnQTEStepCompleted onStepCompleted)
     {
         _model = model;
         _view = view;
+        _onStepCompleted = onStepCompleted;
 
-        _view.KeyImage.sprite = Resources.Load<Sprite>("key");
+        UpdateKeyImage();
         _view.KeyImage.enabled = true;
+        
         CoroutineMaker.Instance.StartCoroutine(CheckInput());
     }
 
@@ -21,67 +28,53 @@ public class QTEMediator
     {
         while (true)
         {
-            if (_model.IsQTECompleted())
-            {
-                yield break;
-            }
-            
-            if (Input.GetKeyUp(_model.qteSteps[_model.currentQTEIndex].InputKeyCode))
+            if (CorrectKeyReleased())
             {
                 _model.TimeHolding = 0;
             }
-            
-            if (Input.GetKey(_model.qteSteps[_model.currentQTEIndex].InputKeyCode))
-            {
-                Debug.Log("key pressed");
 
+            if (IsPressingCorrectKey())
+            {
                 _model.TimeHolding += Time.deltaTime;
                 if (_model.IsCurrentQTEStepCompleted())
                 {
-                    if (_model.CurrentQTEStep.CallbackAnimation != null)
-                    {
-                        Debug.Log("Showing callback anim");
-                        /*_view.KeyImage.enabled = false;
 
-                        _view.AnimationTimeline.playableAsset = _model.CurrentQTEStep.CallbackAnimation;
-                        _view.AnimationTimeline.stopped += OnPlayableDirectorStopped;
-                        _view.AnimationTimeline.Play();*/
+                    if (!_model.IsQTECompleted())
+                    {
+                        UpdateQTEStep();
                     }
                     else
                     {
-                        Debug.Log("Callback anim is null");
-
-                        UpdateQTEStep();
+                        _view.KeyImage.enabled = false;
+                        yield break;
                     }
                 }
-                //_model.KeyPressed.Invoke();
             }
-            
+
             yield return null;
         }
     }
 
-    private void OnPlayableDirectorStopped(PlayableDirector aDirector)
+    private bool IsPressingCorrectKey()
     {
-        UpdateQTEStep();
+        return Input.GetKey(_model.QTESteps[_model.CurrentQTEIndex].InputKeyCode);
+    }
+
+    private bool CorrectKeyReleased()
+    {
+        return Input.GetKeyUp(_model.QTESteps[_model.CurrentQTEIndex].InputKeyCode);
     }
 
     private void UpdateQTEStep()
     {
-        //TODO: move comprobacion a fuera
-        if (!_model.IsQTECompleted())
-        {
-            Debug.Log("QTE is not completed yet");
+        _onStepCompleted.Execute();
+        UpdateKeyImage();
+    }
 
-            _view.KeyImage.sprite = Resources.Load<Sprite>("letter_b");
-            _view.KeyImage.enabled = true;
-            _model.UpdateCurrentQTEIndex();
-        }
-        else
-        {
-            Debug.Log("QTE is Completed");
-        }
-        
+    private void UpdateKeyImage()
+    {
+        var nameOfKeyCode = _model.QTESteps[_model.CurrentQTEIndex].InputKeyCode.ToString();
+        _view.KeyImage.sprite = Resources.Load<Sprite>(nameOfKeyCode);
     }
 
     private void Dispose()
@@ -90,3 +83,10 @@ public class QTEMediator
         //TODO: add desuscription
     }
 }
+
+//Debug.Log("Showing callback anim");
+/*_view.KeyImage.enabled = false;
+
+_view.AnimationTimeline.playableAsset = _model.CurrentQTEStep.CallbackAnimation;
+_view.AnimationTimeline.stopped += OnPlayableDirectorStopped;
+_view.AnimationTimeline.Play();*/

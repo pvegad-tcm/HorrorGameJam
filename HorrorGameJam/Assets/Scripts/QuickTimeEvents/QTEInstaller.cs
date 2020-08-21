@@ -14,6 +14,8 @@ public class QTEInstaller : MonoBehaviour
       public void Install(QuickTimeEventTemplate template)
       {
           var model = new QTEModel(_qteTemplate);
-          var mediator = new QTEMediator(_qteTemplate, model, _view);
+
+          var onQTEstepCompleted = new OnQTEStepCompleted(model);
+          var mediator = new QTEMediator(_qteTemplate, model, _view, onQTEstepCompleted);
       }
  }
