@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using VHS;
 
@@ -10,8 +11,17 @@ namespace Interactions
 
         public override void OnInteract()
         {
+            gameObject.layer = 0;
+            StartCoroutine(NextFrameInteraction());
+        }
+
+        private IEnumerator NextFrameInteraction()
+        {
+            yield return null;
             _qteInstaller.Install(_template);
-            gameObject.SetActive(false);
+            
+            yield return null;
+            Destroy(this);
         }
     }
 }
