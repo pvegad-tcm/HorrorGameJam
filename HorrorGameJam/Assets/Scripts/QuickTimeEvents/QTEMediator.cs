@@ -7,18 +7,23 @@ public class QTEMediator
     private QTEModel _model;
     private readonly QTEView _view;
     private readonly OnQTEStepCompleted _onStepCompleted;
+    private readonly PlayerControllerMaster _playerControllerMaster;
 
     public QTEMediator(
         QTEModel model,
         QTEView view,
-        OnQTEStepCompleted onStepCompleted)
+        OnQTEStepCompleted onStepCompleted,
+        PlayerControllerMaster playerControllerMaster
+    )
     {
         _model = model;
         _view = view;
         _onStepCompleted = onStepCompleted;
+        _playerControllerMaster = playerControllerMaster;
 
         UpdateKeyImage();
         _view.KeyImage.enabled = true;
+        _playerControllerMaster.Disable();
 
         CoroutineMaker.Instance.StartCoroutine(CheckInput());
     }
@@ -91,6 +96,7 @@ public class QTEMediator
     {
         _view.KeyImage.enabled = false;
         _model.QTEIsActive = false;
+        _playerControllerMaster.Enable();
     }
 
     private bool IsPressingCorrectKey()
