@@ -4,28 +4,39 @@ using UnityEngine.Playables;
 
 public class QTEMediator
 {
-    private QTEModel _model;
+    private readonly QTEModel _model;
+    private readonly QuickTimeEventTemplate _qteTemplate;
     private readonly QTEView _view;
     private readonly OnQTEStepCompleted _onStepCompleted;
     private readonly PlayerControllerMaster _playerControllerMaster;
+    private readonly QTEStepCompletedChecker _checkerHoldPress;
+    private readonly QTEStepCompletedChecker _checkerSinglePress;
 
-    public QTEMediator(
-        QTEModel model,
+    public QTEMediator(QTEModel model,
+        QuickTimeEventTemplate qteTemplate,
         QTEView view,
         OnQTEStepCompleted onStepCompleted,
-        PlayerControllerMaster playerControllerMaster
-    )
+        PlayerControllerMaster playerControllerMaster,
+        QTEStepCompletedChecker checkerHoldPress,
+        QTEStepCompletedChecker checkerSinglePress)
     {
         _model = model;
+        _qteTemplate = qteTemplate;
         _view = view;
         _onStepCompleted = onStepCompleted;
         _playerControllerMaster = playerControllerMaster;
+        _checkerHoldPress = checkerHoldPress;
+        _checkerSinglePress = checkerSinglePress;
 
+        SetUpView();
+        _playerControllerMaster.Disable();
+        CoroutineMaker.Instance.StartCoroutine(CheckInput());
+    }
+
+    private void SetUpView()
+    {
         UpdateKeyImage();
         _view.KeyImage.enabled = true;
-        _playerControllerMaster.Disable();
-
-        CoroutineMaker.Instance.StartCoroutine(CheckInput());
     }
 
     private IEnumerator CheckInput()
@@ -36,7 +47,7 @@ public class QTEMediator
             {
                 yield return null;
             }
-
+            
             if (CorrectKeyReleased())
             {
                 _model.TimeHolding = 0;
@@ -55,35 +66,65 @@ public class QTEMediator
     {
         _model.TimeHolding += Time.deltaTime;
 
-        if (_model.IsCurrentQTEStepCompleted())
+        if (IsCurrentStepCompleted())
         {
-            if (_model.IsQTECompleted())
+            if (_model.IsQTECompleted(_qteTemplate.QuickTimeEventSteps.Length))
             {
-                StopQTE();
-                if (_model.QTESteps[_model.CurrentQTEIndex].CallbackAnimation != null)
-                {
-                    _model.UserCanInteract = false;
-                    _view.AnimationTimeline.playableAsset = _model.QTESteps[_model.CurrentQTEIndex].CallbackAnimation;
-                    _view.AnimationTimeline.Play();
-                    _view.KeyImage.enabled = false;
-                }
+                FinishQTEAndShowCallbackIfNeeded();
             }
             else
             {
-                if (_model.QTESteps[_model.CurrentQTEIndex].CallbackAnimation != null)
-                {
-                    _model.UserCanInteract = false;
-                    _view.AnimationTimeline.playableAsset = _model.QTESteps[_model.CurrentQTEIndex].CallbackAnimation;
-                    _view.AnimationTimeline.stopped += OnPlayableDirectorStopped;
-                    _view.AnimationTimeline.Play();
-                    _view.KeyImage.enabled = false;
-                }
-                else
-                {
-                    UpdateQTEStep();
-                }
+                UpdateQTEStepAndShowCallbackIfNeeded();
             }
         }
+    }
+
+    private void UpdateQTEStepAndShowCallbackIfNeeded()
+    {
+        if (_qteTemplate.QuickTimeEventSteps[_model.CurrentQTEIndex].CallbackAnimation != null)
+        {
+            _view.AnimationTimeline.stopped += OnPlayableDirectorStopped;
+            StartCallbackAnimation();
+        }
+        else
+        {
+            UpdateQTEStep();
+        }
+    }
+
+    private void FinishQTEAndShowCallbackIfNeeded()
+    {
+        FinishQTE();
+        if (_qteTemplate.QuickTimeEventSteps[_model.CurrentQTEIndex].CallbackAnimation != null)
+        {
+            StartCallbackAnimation();
+        }
+    }
+
+    private void StartCallbackAnimation()
+    {
+        DisableQTEWhileAnimation();
+
+        _view.AnimationTimeline.playableAsset = _qteTemplate.QuickTimeEventSteps[_model.CurrentQTEIndex].CallbackAnimation;
+        _view.AnimationTimeline.Play();
+    }
+
+    private void DisableQTEWhileAnimation()
+    {
+        _model.UserCanInteract = false;
+        _view.KeyImage.enabled = false;
+    }
+
+    private bool IsCurrentStepCompleted()
+    {
+        switch (_qteTemplate.QuickTimeEventSteps[_model.CurrentQTEIndex].Type)
+        {
+            case QuickTimeEventType.SinglePress:
+                return _checkerSinglePress.IsStepFinished(_model);
+            case QuickTimeEventType.Hold:
+                return _checkerHoldPress.IsStepFinished(_model);
+            default:
+                return false;}
     }
 
     private void OnPlayableDirectorStopped(PlayableDirector obj)
@@ -92,7 +133,7 @@ public class QTEMediator
         UpdateQTEStep();
     }
 
-    private void StopQTE()
+    private void FinishQTE()
     {
         _view.KeyImage.enabled = false;
         _model.QTEIsActive = false;
@@ -101,12 +142,12 @@ public class QTEMediator
 
     private bool IsPressingCorrectKey()
     {
-        return Input.GetKey(_model.QTESteps[_model.CurrentQTEIndex].InputKeyCode);
+        return Input.GetKey(_qteTemplate.QuickTimeEventSteps[_model.CurrentQTEIndex].InputKeyCode);
     }
 
     private bool CorrectKeyReleased()
     {
-        return Input.GetKeyUp(_model.QTESteps[_model.CurrentQTEIndex].InputKeyCode);
+        return Input.GetKeyUp(_qteTemplate.QuickTimeEventSteps[_model.CurrentQTEIndex].InputKeyCode);
     }
 
     private void UpdateQTEStep()
@@ -117,7 +158,7 @@ public class QTEMediator
 
     private void UpdateKeyImage()
     {
-        var nameOfKeyCode = _model.QTESteps[_model.CurrentQTEIndex].InputKeyCode.ToString();
+        var nameOfKeyCode = _qteTemplate.QuickTimeEventSteps[_model.CurrentQTEIndex].InputKeyCode.ToString();
         _view.KeyImage.sprite = Resources.Load<Sprite>(nameOfKeyCode);
         _view.KeyImage.enabled = true;
     }
