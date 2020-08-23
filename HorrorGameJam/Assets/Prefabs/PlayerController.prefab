@@ -443,11 +443,13 @@ MonoBehaviour:
     type: 2}
   interactionData: {fileID: 11400000, guid: 229de2e6b9a896344928fb2041804439, type: 2}
   uiPanel: {fileID: 0}
-  rayDistance: 3
+  rayDistance: 5
   raySphereRadius: 0.05
-  interactableLayer:
+  detectableLayers:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 1536
+  interactableLayer: 9
+  selectedLayer: 10
 --- !u!114 &8446987683089773685
 MonoBehaviour:
   m_ObjectHideFlags: 0
