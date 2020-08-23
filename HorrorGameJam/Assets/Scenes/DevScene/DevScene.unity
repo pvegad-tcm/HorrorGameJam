@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2035111234}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 184.12514, g: 184.12514, b: 184.12514, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -677,7 +677,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _view: {fileID: 744499763}
-  _qteTemplate: {fileID: 11400000, guid: b1c1e9273e561f246a7bdcfd6a9c3456, type: 2}
   _playerControllerMaster: {fileID: 3843716870309098495}
 --- !u!114 &744499763
 MonoBehaviour:
@@ -1175,7 +1174,12 @@ PrefabInstance:
     - target: {fileID: -8498401518627060002, guid: 0d05f7d188e212a40a703869cc1f3aee,
         type: 3}
       propertyPath: customPasses.Array.data[0].layerMask.m_Bits
-      value: 512
+      value: 1024
+      objectReference: {fileID: 0}
+    - target: {fileID: -8498401518627060002, guid: 0d05f7d188e212a40a703869cc1f3aee,
+        type: 3}
+      propertyPath: customPasses.Array.data[1].enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5760003062222315077, guid: 0d05f7d188e212a40a703869cc1f3aee,
         type: 3}
@@ -1732,11 +1736,13 @@ MonoBehaviour:
     type: 2}
   interactionData: {fileID: 11400000, guid: 229de2e6b9a896344928fb2041804439, type: 2}
   uiPanel: {fileID: 134968861}
-  rayDistance: 5
-  raySphereRadius: 0.3
-  interactableLayer:
+  rayDistance: 3
+  raySphereRadius: 0.05
+  detectableLayers:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 1536
+  interactableLayer: 9
+  selectedLayer: 10
 --- !u!4 &3843716870309098483
 Transform:
   m_ObjectHideFlags: 0
