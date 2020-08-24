@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e256f81b35d4d8343b38074986b53f0d, type: 3}
+  m_Name: QTETest
+  m_EditorClassIdentifier: 
+  QuickTimeEventSteps:
+  - InputKeyCode: 98
+    InputNeededLength: 0
+    NumberOfInputsNeeded: 10
+    CallbackAnimation: {fileID: 11400000, guid: 3c3d968c57c57454fba56b8893a49ad4,
+      type: 2}
+  - InputKeyCode: 110
+    InputNeededLength: 0
+    NumberOfInputsNeeded: 1
+    CallbackAnimation: {fileID: 0}

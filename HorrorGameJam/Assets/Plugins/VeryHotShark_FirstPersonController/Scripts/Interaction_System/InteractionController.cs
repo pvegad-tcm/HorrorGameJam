@@ -17,8 +17,11 @@ namespace VHS
             [Space, Header("Ray Settings")]
             [SerializeField] private float rayDistance = 0f;
             [SerializeField] private float raySphereRadius = 0f;
-            [SerializeField] private LayerMask interactableLayer = ~0;
 
+            [Space, Header("Layers Settings")] 
+            [SerializeField] private LayerMask detectableLayers = ~0;
+            [SerializeField] private int interactableLayer = 0;
+            [SerializeField] private int selectedLayer = 0;
 
             #region Private
                 private Camera m_cam;
@@ -50,8 +53,8 @@ namespace VHS
                 Ray _ray = new Ray(m_cam.transform.position,m_cam.transform.forward);
                 RaycastHit _hitInfo;
 
-                bool _hitSomething = Physics.SphereCast(_ray,raySphereRadius, out _hitInfo, rayDistance, interactableLayer);
-
+                bool _hitSomething = Physics.SphereCast(_ray,raySphereRadius, out _hitInfo, rayDistance, detectableLayers);
+    
                 if(_hitSomething)
                 {
                     InteractableBase _interactable = _hitInfo.transform.GetComponent<InteractableBase>();
@@ -60,6 +63,7 @@ namespace VHS
                     {
                         if(interactionData.IsEmpty())
                         {
+                            _interactable.gameObject.layer = selectedLayer;
                             interactionData.Interactable = _interactable;
                             uiPanel.SetTooltip(_interactable.TooltipMessage);
                         }
@@ -67,14 +71,22 @@ namespace VHS
                         {
                             if(!interactionData.IsSameInteractable(_interactable))
                             {
+                                interactionData.Interactable.gameObject.layer = interactableLayer;
+                                _interactable.gameObject.layer = selectedLayer;
+                                
                                 interactionData.Interactable = _interactable;
                                 uiPanel.SetTooltip(_interactable.TooltipMessage);
-                            }  
+                            }
                         }
                     }
                 }
                 else
                 {
+                    if (!interactionData.IsEmpty())
+                    {
+                        interactionData.Interactable.gameObject.layer = interactableLayer;
+                    }
+                    
                     uiPanel.ResetUI();
                     interactionData.ResetData();
                 }
@@ -102,27 +114,8 @@ namespace VHS
 
                 if(m_interacting)
                 {
-                    if(!interactionData.Interactable.IsInteractable)
-                        return;
-
-                    if(interactionData.Interactable.HoldInteract)
-                    {
-                        m_holdTimer += Time.deltaTime;
-
-                        float heldPercent = m_holdTimer / interactionData.Interactable.HoldDuration;
-                        uiPanel.UpdateProgressBar(heldPercent);
-
-                        if(heldPercent > 1f)
-                        {
-                            interactionData.Interact();
-                            m_interacting = false;
-                        }
-                    }
-                    else
-                    {
-                        interactionData.Interact();
-                        m_interacting = false;
-                    }
+                    interactionData.Interact();
+                    m_interacting = false;
                 }
             }
         #endregion
