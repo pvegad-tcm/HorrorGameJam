@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e256f81b35d4d8343b38074986b53f0d, type: 3}
-  m_Name: Quick Time Event Tes
+  m_Name: QTETest
   m_EditorClassIdentifier: 
   QuickTimeEventSteps:
   - InputKeyCode: 98

@@ -8,8 +8,8 @@ public class QTEView : MonoBehaviour
     [SerializeField] private PlayableAsset _keyPressedAnimation;    
     [SerializeField] private Image _keyImage;
     [SerializeField] private Animation _animationAura;
-    [SerializeField] private AnimationClip _animationFast;
-    [SerializeField] private AnimationClip _animationSlow;
+    [SerializeField] private AnimationClip _backgroundAnimationFast;
+    [SerializeField] private AnimationClip _backgroundAnimationSlow;
 
     public PlayableDirector AnimationTimeline => _animationTimeline;
     public PlayableAsset KeyPressedAnimation => _keyPressedAnimation;
@@ -17,13 +17,13 @@ public class QTEView : MonoBehaviour
 
     public void PlayBackgroundFast()
     {
-        _animationAura.clip = _animationFast;
+        _animationAura.clip = _backgroundAnimationFast;
         _animationAura.Play();
     }
     
     public void PlayBackgroundSlow()
     {
-        _animationAura.clip = _animationSlow;
+        _animationAura.clip = _backgroundAnimationSlow;
         _animationAura.Play();
     }
 
