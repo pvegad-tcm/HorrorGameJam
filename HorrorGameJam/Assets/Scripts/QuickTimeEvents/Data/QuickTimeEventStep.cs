@@ -8,6 +8,6 @@ public class QuickTimeEventStep
 {
     public KeyCode InputKeyCode;
     public float InputNeededLength;
-    public QuickTimeEventType Type;
+    public int NumberOfInputsNeeded;
     public TimelineAsset CallbackAnimation;
 }

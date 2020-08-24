@@ -3,8 +3,8 @@ public class QTEModel
     public bool QTEIsActive;
     public bool UserCanInteract;
     public int CurrentQTEIndex;
+    public int PressedTimes;
     public double TimeHolding;
-
 
     public QTEModel()
     {
@@ -15,11 +15,6 @@ public class QTEModel
     
     public bool IsQTECompleted(int totalSteps)
     {
-        return CurrentQTEIndex >= totalSteps-1;
-    }
-
-    public void UpdateCurrentQTEIndex()
-    {
-        CurrentQTEIndex++;
+        return CurrentQTEIndex >= totalSteps;
     }
 }
