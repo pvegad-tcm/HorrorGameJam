@@ -8,7 +8,7 @@ namespace Menu
     {
         [SerializeField] private SceneAsset _sceneToLoad;
 
-        public void ChangeScene()
+        private void Start()
         {
             SceneManager.LoadScene(_sceneToLoad.name);
         }

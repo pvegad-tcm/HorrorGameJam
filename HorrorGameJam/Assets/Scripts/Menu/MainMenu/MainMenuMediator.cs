@@ -37,7 +37,7 @@ namespace Menu
 
         private void AllowSceneChange(PlayableDirector obj)
         {
-            _sceneChanger.ChangeScene();
+            _sceneChanger.enabled = true;
         }
     }
 }
