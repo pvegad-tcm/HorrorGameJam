@@ -50,7 +50,6 @@ public class Shake : MonoBehaviour
 			Vector3 forceDirector = Random.insideUnitSphere * _impulse;
 
 			//transform.position = _randomPos;
-			Debug.Log(forceDirector);
 			rb.AddForce(forceDirector);
 
 			if (_delayBetweenShakes > 0f)
