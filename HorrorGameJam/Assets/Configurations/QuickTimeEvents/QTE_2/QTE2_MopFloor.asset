@@ -51,25 +51,5 @@ MonoBehaviour:
   - InputKeyCode: 100
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 11400000, guid: e3fc223ae51ef7f4aa13758631d943d8,
-      type: 2}
-  - InputKeyCode: 119
-    InputNeededLength: 0
-    NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 11400000, guid: e3fc223ae51ef7f4aa13758631d943d8,
-      type: 2}
-  - InputKeyCode: 97
-    InputNeededLength: 0
-    NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 11400000, guid: e3fc223ae51ef7f4aa13758631d943d8,
-      type: 2}
-  - InputKeyCode: 115
-    InputNeededLength: 0
-    NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 11400000, guid: e3fc223ae51ef7f4aa13758631d943d8,
-      type: 2}
-  - InputKeyCode: 100
-    InputNeededLength: 0
-    NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 11400000, guid: e3fc223ae51ef7f4aa13758631d943d8,
+    CallbackAnimation: {fileID: 11400000, guid: fa56ef1b7a2e6764e9cc977e5eed6001,
       type: 2}
