@@ -2,20 +2,15 @@
 using System.Collections;
 
 [RequireComponent (typeof(Rigidbody))]
+[RequireComponent (typeof(BoxCollider))]
 public class Shake : MonoBehaviour
 {
 	[Header("Info")]
-	private Vector3 _startPos;
 	private float _timer;
-	private Vector3 _randomPos;
 
 	[Header("Settings")]
-	[Range(0f, 2f)]
-	public float _time = 0.2f;
-
-	public float _impulse = 0.1f;
-	[Range(0f, 0.1f)]
-	public float _delayBetweenShakes = 0f;
+	public float _duration = 1f;
+	public float _intensity = 8f;
 
 	Rigidbody rb;
 
@@ -23,18 +18,13 @@ public class Shake : MonoBehaviour
 	private void Awake()
 	{
 		rb = GetComponent<Rigidbody>();
-		_startPos = transform.position;
-		Begin();
 	}
 
-	private void OnValidate()
+	public void Begin(float intensity, float duration)
 	{
-		if (_delayBetweenShakes > _time)
-			_delayBetweenShakes = _time;
-	}
-
-	public void Begin()
-	{
+		print("begin");
+		_intensity = intensity;
+		_duration = duration;
 		StopAllCoroutines();
 		StartCoroutine(Shaking());
 	}
@@ -43,26 +33,17 @@ public class Shake : MonoBehaviour
 	{
 		_timer = 0f;
 		
-		while (true)
+		while (_timer < _duration)
 		{
 			_timer += Time.deltaTime;
 
-			Vector3 forceDirector = Random.insideUnitSphere * _impulse;
+			Vector3 forceDirector = Random.insideUnitSphere * _intensity;
 
 			//transform.position = _randomPos;
 			rb.AddForce(forceDirector);
 
-			if (_delayBetweenShakes > 0f)
-			{
-				yield return new WaitForSeconds(_delayBetweenShakes);
-			}
-			else
-			{
-				yield return null;
-			}
+			yield return null;
 		}
-
-		transform.position = _startPos;
 	}
 
 }
