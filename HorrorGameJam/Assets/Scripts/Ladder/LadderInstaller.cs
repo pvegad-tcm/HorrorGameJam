@@ -6,35 +6,34 @@ namespace Ladder
 {
     public class LadderInstaller : MonoBehaviour
     {
-        [SerializeField] private LadderView _ladderView;
+        [SerializeField] private float _climbingSpeed;
         [SerializeField] private PlayerControllerMaster _playerControllerMaster;
         [SerializeField] private Transform _playerTransform;
         [SerializeField] private Transform _cameraHolderTransform;
-        [SerializeField] private Transform _highestPoint;
-        [SerializeField] private Transform _lowestPoint;
+        [SerializeField] private Transform _cameraPivotTransform;
+        [SerializeField] private Transform _finalDestinationTop;
+        [SerializeField] private Transform _finalDestinatioBot;
         [SerializeField] private Transform _startingPointTop;
         [SerializeField] private Transform _startingPointBottom;
-        [SerializeField] private Transform _cameraPivotTransform;
+        [SerializeField] private Vector3 _playerOrientation;
 
 
         
         private LadderMediator _ladderMediator;
-        private LadderModel _ladderModel;
 
         private void Awake()
         {
-            _ladderModel = new LadderModel();
             _ladderMediator = new LadderMediator(
-                _ladderModel, 
-                _ladderView, 
                 _playerControllerMaster,
                 _playerTransform, 
-                _highestPoint, 
-                _lowestPoint,
                 _cameraHolderTransform,
+                _cameraPivotTransform,
+                _finalDestinationTop, 
+                _finalDestinatioBot,
                 _startingPointTop,
                 _startingPointBottom,
-                _cameraHolderTransform);
+                _climbingSpeed,
+                _playerOrientation);
         }
 
         public void StartClimbing(Action onFinishedClimbing)
