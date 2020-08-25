@@ -13,7 +13,6 @@ namespace Interactions
         
         public override void OnInteract()
         {
-            Debug.Log(gameObject.layer);
             gameObject.layer = 0;
             _ladderInstaller.StartClimbing(OnFinishedClimbing);
         }
