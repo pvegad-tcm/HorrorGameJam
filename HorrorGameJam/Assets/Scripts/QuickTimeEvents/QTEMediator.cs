@@ -97,9 +97,21 @@ public class QTEMediator
 
     private void DisableQTEWhileAnimation()
     {
-        _model.UserCanInteract = false;
-        _view.KeyImage.enabled = false;
-        _view.ActiveBackgroundAnimation(false);
+        if (IsLastAnimation())
+        {
+            FinishQTE();
+        }
+        else
+        {
+            _model.UserCanInteract = false;
+            _view.KeyImage.enabled = false;
+            _view.ActiveBackgroundAnimation(false);
+        }
+    }
+
+    private bool IsLastAnimation()
+    {
+        return _model.CurrentQTEIndex == _qteTemplate.QuickTimeEventSteps.Length - 1;
     }
 
     private bool IsCurrentStepCompleted()
