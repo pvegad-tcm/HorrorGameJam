@@ -6,10 +6,10 @@ using UnityEngine;
 public class MainMenuInstaller : MonoBehaviour
 {
     [SerializeField] private MainMenuView _mainMenuView;
-    [SerializeField] private Object _gameplayScene;
+    [SerializeField] private SceneChanger _sceneChanger;
 
     private void Start()
     {
-        var mediator = new MainMenuMediator(_mainMenuView, (SceneAsset)_gameplayScene);
+        var mediator = new MainMenuMediator(_mainMenuView, _sceneChanger);
     }
 }
