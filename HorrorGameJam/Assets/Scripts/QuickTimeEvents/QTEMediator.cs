@@ -41,6 +41,12 @@ public class QTEMediator
         {
             if (_model.UserCanInteract)
             {
+                if (_model.IsQTECompleted(_qteTemplate.QuickTimeEventSteps.Length))
+                {
+                    FinishQTE();
+                    yield break;
+                }
+                
                 if (CorrectKeyReleased())
                 {
                     _model.TimeHolding = 0;
@@ -60,11 +66,6 @@ public class QTEMediator
                 if (IsCurrentStepCompleted())
                 {
                     UpdateQTEStepAndShowCallbackIfNeeded();
-                }
-
-                if (_model.IsQTECompleted(_qteTemplate.QuickTimeEventSteps.Length))
-                {
-                    FinishQTE();
                 }
             }
 
@@ -162,10 +163,10 @@ public class QTEMediator
 
     private void DisplayAura()
     {
-        _view.ActiveBackgroundAnimation(true);
-
         if (_model.CurrentQTEIndex < _qteTemplate.QuickTimeEventSteps.Length)
         {
+            _view.ActiveBackgroundAnimation(true);
+
             if (_qteTemplate.QuickTimeEventSteps[_model.CurrentQTEIndex].NumberOfInputsNeeded > 1)
             {
                 _view.PlayBackgroundFast();
