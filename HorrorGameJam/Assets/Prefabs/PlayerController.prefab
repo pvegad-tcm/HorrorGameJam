@@ -648,7 +648,7 @@ MonoBehaviour:
     type: 2}
   interactionData: {fileID: 11400000, guid: 229de2e6b9a896344928fb2041804439, type: 2}
   uiPanel: {fileID: 0}
-  rayDistance: 5
+  rayDistance: 2
   raySphereRadius: 0.05
   detectableLayers:
     serializedVersion: 2

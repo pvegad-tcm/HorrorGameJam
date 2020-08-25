@@ -15,21 +15,21 @@ MonoBehaviour:
   QuickTimeEventSteps:
   - InputKeyCode: 119
     InputNeededLength: 2
-    Type: 0
+    NumberOfInputsNeeded: 0
     CallbackAnimation: {fileID: 0}
   - InputKeyCode: 115
     InputNeededLength: 0
-    Type: 0
+    NumberOfInputsNeeded: 0
     CallbackAnimation: {fileID: 0}
   - InputKeyCode: 119
     InputNeededLength: 0
-    Type: 0
+    NumberOfInputsNeeded: 0
     CallbackAnimation: {fileID: 0}
   - InputKeyCode: 115
     InputNeededLength: 0
-    Type: 0
+    NumberOfInputsNeeded: 0
     CallbackAnimation: {fileID: 0}
   - InputKeyCode: 119
     InputNeededLength: 0
-    Type: 0
+    NumberOfInputsNeeded: 0
     CallbackAnimation: {fileID: 0}
