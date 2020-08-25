@@ -10,58 +10,52 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e256f81b35d4d8343b38074986b53f0d, type: 3}
-  m_Name: QTE2_MopFloor
+  m_Name: QTE3_TakeLightBulb
   m_EditorClassIdentifier: 
   PreConditionAnimation: {fileID: 0}
   QuickTimeEventSteps:
-  - InputKeyCode: 119
+  - InputKeyCode: 100
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
   - InputKeyCode: 97
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 115
-    InputNeededLength: 0
-    NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 100
-    InputNeededLength: 0
-    NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 11400000, guid: efe96185dde2e8b46bd9b344f7554ade,
+    CallbackAnimation: {fileID: 11400000, guid: ccc3883087a43cf42b96bdd91cf1b1dd,
       type: 2}
-  - InputKeyCode: 119
+  - InputKeyCode: 100
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
   - InputKeyCode: 97
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 115
-    InputNeededLength: 0
-    NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 100
-    InputNeededLength: 0
-    NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 11400000, guid: efe96185dde2e8b46bd9b344f7554ade,
+    CallbackAnimation: {fileID: 11400000, guid: ccc3883087a43cf42b96bdd91cf1b1dd,
       type: 2}
-  - InputKeyCode: 119
+  - InputKeyCode: 100
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
   - InputKeyCode: 97
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 115
-    InputNeededLength: 0
-    NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 0}
+    CallbackAnimation: {fileID: 11400000, guid: ccc3883087a43cf42b96bdd91cf1b1dd,
+      type: 2}
   - InputKeyCode: 100
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 11400000, guid: fa56ef1b7a2e6764e9cc977e5eed6001,
+    CallbackAnimation: {fileID: 0}
+  - InputKeyCode: 97
+    InputNeededLength: 0
+    NumberOfInputsNeeded: 1
+    CallbackAnimation: {fileID: 11400000, guid: ccc3883087a43cf42b96bdd91cf1b1dd,
+      type: 2}
+  - InputKeyCode: 100
+    InputNeededLength: 0
+    NumberOfInputsNeeded: 1
+    CallbackAnimation: {fileID: 0}
+  - InputKeyCode: 97
+    InputNeededLength: 0
+    NumberOfInputsNeeded: 1
+    CallbackAnimation: {fileID: 11400000, guid: 8d97ed020cd19584e874351688ff5b1d,
       type: 2}
