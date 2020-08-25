@@ -22,8 +22,34 @@ public class QTEMediator
         _playerControllerMaster = playerControllerMaster;
         _stepCompletedChecker = stepCompletedChecker;
 
-        SetUpView();
         _playerControllerMaster.Disable();
+        
+        if (_qteTemplate.PreConditionAnimation != null)
+        {
+            StartPreConditionAnimation();
+        }
+        else
+        {
+            StartQTE();
+        }
+    }
+
+    private void StartPreConditionAnimation()
+    {
+        _view.AnimationTimeline.stopped += StartQTEAfterAnimation;
+        _view.AnimationTimeline.playableAsset = _qteTemplate.PreConditionAnimation;
+        _view.AnimationTimeline.Play();
+    }
+
+    private void StartQTEAfterAnimation(PlayableDirector obj)
+    {
+        _view.AnimationTimeline.stopped -= StartQTEAfterAnimation;
+        StartQTE();
+    }
+
+    private void StartQTE()
+    {
+        SetUpView();
         CoroutineMaker.Instance.StartCoroutine(CheckInput());
     }
 
