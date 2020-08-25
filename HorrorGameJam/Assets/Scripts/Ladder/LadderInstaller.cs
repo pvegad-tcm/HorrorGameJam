@@ -17,8 +17,6 @@ namespace Ladder
         [SerializeField] private Transform _startingPointBottom;
         [SerializeField] private Vector3 _playerOrientation;
 
-
-        
         private LadderMediator _ladderMediator;
 
         private void Awake()
