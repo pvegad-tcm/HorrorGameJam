@@ -11,7 +11,7 @@ namespace Interactions
 
         public override void OnInteract()
         {
-            gameObject.layer = 0;
+            gameObject.layer = (int)LayerValue.Default;
             StartCoroutine(NextFrameInteraction());
         }
 

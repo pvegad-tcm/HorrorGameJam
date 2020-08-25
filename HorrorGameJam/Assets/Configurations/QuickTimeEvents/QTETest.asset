@@ -16,9 +16,9 @@ MonoBehaviour:
   - InputKeyCode: 98
     InputNeededLength: 0
     NumberOfInputsNeeded: 10
-    CallbackAnimation: {fileID: 11400000, guid: 3c3d968c57c57454fba56b8893a49ad4,
-      type: 2}
+    CallbackAnimation: {fileID: 0}
   - InputKeyCode: 110
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 0}
+    CallbackAnimation: {fileID: 11400000, guid: 3c3d968c57c57454fba56b8893a49ad4,
+      type: 2}

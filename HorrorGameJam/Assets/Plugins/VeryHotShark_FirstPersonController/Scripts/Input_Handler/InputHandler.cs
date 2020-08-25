@@ -5,6 +5,7 @@ namespace VHS
 {    
     public class InputHandler : MonoBehaviour
     {
+        public bool JumpAllowed;
         #region Data
             [Space,Header("Input Data")]
             [SerializeField] private CameraInputData cameraInputData = null;
@@ -58,7 +59,10 @@ namespace VHS
                 if(movementInputData.RunReleased)
                     movementInputData.IsRunning = false;
 
-                movementInputData.JumpClicked = Input.GetKeyDown(KeyCode.Space);
+                if (JumpAllowed)
+                {
+                    movementInputData.JumpClicked = Input.GetKeyDown(KeyCode.Space);
+                }
                 movementInputData.CrouchClicked = Input.GetKeyDown(KeyCode.LeftControl);
             }
         #endregion
