@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5778790919135016118}
   - component: {fileID: 5778790919135016116}
   - component: {fileID: 5778790919135016119}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Mop_Placed
   m_TagString: Untagged
   m_Icon: {fileID: 0}

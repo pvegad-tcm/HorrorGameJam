@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7083386490316779540}
   - component: {fileID: 7083386490316779544}
   m_Layer: 9
-  m_Name: Interact2_PlaceBucket
+  m_Name: Interact_PlaceBucket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
