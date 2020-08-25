@@ -51,5 +51,5 @@ MonoBehaviour:
   - InputKeyCode: 100
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 11400000, guid: 89e5cb9bdaa43244d99e8cd2524241a7,
+    CallbackAnimation: {fileID: 11400000, guid: e3fc223ae51ef7f4aa13758631d943d8,
       type: 2}
