@@ -2,12 +2,15 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChanger : MonoBehaviour
+namespace Menu
 {
-    [SerializeField] private SceneAsset _sceneToLoad;
-
-    public void ChangeScene()
+    public class SceneChanger : MonoBehaviour
     {
-        SceneManager.LoadScene(_sceneToLoad.name);
+        [SerializeField] private SceneAsset _sceneToLoad;
+
+        public void ChangeScene()
+        {
+            SceneManager.LoadScene(_sceneToLoad.name);
+        }
     }
 }
