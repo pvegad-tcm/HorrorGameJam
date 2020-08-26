@@ -12,43 +12,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e256f81b35d4d8343b38074986b53f0d, type: 3}
   m_Name: QTE1B_StirCauldron
   m_EditorClassIdentifier: 
+  PreConditionAnimation: {fileID: 0}
   QuickTimeEventSteps:
-  - InputKeyCode: 115
+  - InputKeyCode: 274
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 11400000, guid: 89e5cb9bdaa43244d99e8cd2524241a7,
       type: 2}
-  - InputKeyCode: 97
+  - InputKeyCode: 276
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 11400000, guid: 89e5cb9bdaa43244d99e8cd2524241a7,
       type: 2}
-  - InputKeyCode: 119
+  - InputKeyCode: 273
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 11400000, guid: 89e5cb9bdaa43244d99e8cd2524241a7,
       type: 2}
-  - InputKeyCode: 100
+  - InputKeyCode: 275
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 11400000, guid: 89e5cb9bdaa43244d99e8cd2524241a7,
       type: 2}
-  - InputKeyCode: 115
+  - InputKeyCode: 274
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 11400000, guid: 89e5cb9bdaa43244d99e8cd2524241a7,
       type: 2}
-  - InputKeyCode: 97
+  - InputKeyCode: 276
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 11400000, guid: 89e5cb9bdaa43244d99e8cd2524241a7,
       type: 2}
-  - InputKeyCode: 119
+  - InputKeyCode: 273
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 11400000, guid: 89e5cb9bdaa43244d99e8cd2524241a7,
       type: 2}
-  - InputKeyCode: 100
+  - InputKeyCode: 275
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 11400000, guid: e3fc223ae51ef7f4aa13758631d943d8,

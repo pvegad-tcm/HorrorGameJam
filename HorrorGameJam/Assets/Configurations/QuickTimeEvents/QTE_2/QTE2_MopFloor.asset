@@ -14,53 +14,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreConditionAnimation: {fileID: 0}
   QuickTimeEventSteps:
-  - InputKeyCode: 119
+  - InputKeyCode: 273
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 97
+  - InputKeyCode: 276
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 115
+  - InputKeyCode: 274
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 100
+  - InputKeyCode: 275
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 11400000, guid: efe96185dde2e8b46bd9b344f7554ade,
       type: 2}
-  - InputKeyCode: 119
+  - InputKeyCode: 273
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 97
+  - InputKeyCode: 276
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 115
+  - InputKeyCode: 274
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 100
+  - InputKeyCode: 275
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 11400000, guid: efe96185dde2e8b46bd9b344f7554ade,
       type: 2}
-  - InputKeyCode: 119
+  - InputKeyCode: 273
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 97
+  - InputKeyCode: 276
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 115
+  - InputKeyCode: 274
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 100
+  - InputKeyCode: 275
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 11400000, guid: fa56ef1b7a2e6764e9cc977e5eed6001,

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e256f81b35d4d8343b38074986b53f0d, type: 3}
   m_Name: QTE4_OpenHatch
   m_EditorClassIdentifier: 
+  PreConditionAnimation: {fileID: 0}
   QuickTimeEventSteps:
-  - InputKeyCode: 119
+  - InputKeyCode: 273
     InputNeededLength: 0
     NumberOfInputsNeeded: 5
     CallbackAnimation: {fileID: 11400000, guid: ad9e9f225fe83094ea591c5f445e0a47,
