@@ -33,10 +33,7 @@
         }
     },
     "texturesets": {
-        "03 - Default": {
-            "shader": "Main shader"
-        },
-        "cama_wire_086086086": {
+        "DefaultMaterial": {
             "shader": "Main shader"
         }
     }
