@@ -5,14 +5,15 @@ using VHS;
 
 namespace Interactions
 {
-    public class InteractableItemWithAnimation : InteractableBase
+    public class InteractableItemWithAnimation : InteractableItem
     {
         [SerializeField] private PlayableDirector _animationTimeline;
 
         public override void OnInteract()
         {
-            gameObject.layer = 0;
+            base.OnInteract();
             _animationTimeline.Play();
+            OnFinishedInteraction();
         }
     }
 }
