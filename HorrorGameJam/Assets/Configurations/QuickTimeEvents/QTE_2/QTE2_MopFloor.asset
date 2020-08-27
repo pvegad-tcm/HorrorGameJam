@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e256f81b35d4d8343b38074986b53f0d, type: 3}
   m_Name: QTE2_MopFloor
   m_EditorClassIdentifier: 
-  PreConditionAnimation: {fileID: 0}
+  PreConditionAnimation: {fileID: 11400000, guid: c5be0cffbdea5574b8b1d4490cbdc708,
+    type: 2}
   QuickTimeEventSteps:
   - InputKeyCode: 273
     InputNeededLength: 0
