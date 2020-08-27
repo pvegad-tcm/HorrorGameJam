@@ -15,8 +15,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: 
-  sourceBankPath: 
+  sourceProjectPath: ../FMOD_Project/fmod_slowjam/fmod_slowjam.fspro
+  sourceBankPath: ..\FMOD_Project\fmod_slowjam\Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
@@ -27,7 +27,7 @@ MonoBehaviour:
   LoggingLevel: 2
   SpeakerModeSettings:
   - Platform: 2
-    Value: 3
+    Value: 6
   - Platform: 20
     Value: 3
   SampleRateSettings:
@@ -58,7 +58,9 @@ MonoBehaviour:
     Value: 0
   - Platform: 20
     Value: 0
-  BankDirectorySettings: []
+  BankDirectorySettings:
+  - Platform: 2
+    Value: Desktop
   VirtualChannelSettings:
   - Platform: 1
     Value: 1024
