@@ -13,7 +13,7 @@ public class Shake : MonoBehaviour
 	public float _intensity = 8f;
 
 	Rigidbody rb;
-	Collider collider;
+	new Collider collider;
 
 
 	private void Awake()
