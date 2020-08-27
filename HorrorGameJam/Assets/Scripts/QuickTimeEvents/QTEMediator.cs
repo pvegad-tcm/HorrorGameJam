@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Playables;
@@ -9,18 +10,22 @@ public class QTEMediator
     private readonly QTEView _view;
     private readonly PlayerControllerMaster _playerControllerMaster;
     private readonly QTEStepCompletedChecker _stepCompletedChecker;
+    private readonly Action _onFinished;
 
     public QTEMediator(QTEModel model,
         QuickTimeEventTemplate qteTemplate,
         QTEView view,
         PlayerControllerMaster playerControllerMaster,
-        QTEStepCompletedChecker stepCompletedChecker)
+        QTEStepCompletedChecker stepCompletedChecker, 
+        Action onFinished
+    )
     {
         _model = model;
         _qteTemplate = qteTemplate;
         _view = view;
         _playerControllerMaster = playerControllerMaster;
         _stepCompletedChecker = stepCompletedChecker;
+        _onFinished = onFinished;
 
         _playerControllerMaster.Disable();
         
@@ -158,6 +163,7 @@ public class QTEMediator
         _view.ActiveBackgroundAnimation(false);
         _model.QTEIsActive = false;
         _playerControllerMaster.Enable();
+        _onFinished.Invoke();
     }
 
     private bool CorrectKeyHolding()
