@@ -11,5 +11,9 @@ namespace VHS
         {
             Debug.LogWarning("INTERACTED: " + gameObject.name + " without any action.");
         }
+
+        protected virtual void OnFinishedInteraction()
+        {
+        }
     }
 }
