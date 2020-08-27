@@ -29,7 +29,7 @@ namespace Interactions
         private IEnumerator NextFrameInteraction()
         {
             yield return null;
-            _qteInstaller.Install(_template);
+            _qteInstaller.Install(_template, OnFinishedInteraction);
             
             yield return null;
             Destroy(this);

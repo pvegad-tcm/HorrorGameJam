@@ -2,26 +2,31 @@ namespace TaskLists
 {
     public class TaskListMediator
     {
+        private readonly TaskListModel _model;
+        private readonly TaskListView _view;
+
         public TaskListMediator(
             TaskListModel model, 
-            TaskListView view,
-            OnTaskListCompletedCommand onTaskListCompletedCommand
+            TaskListView view
         )
         {
-            view.LoadList(model.List, onTaskListCompletedCommand.Execute);
+            _model = model;
+            _view = view;
+            
+            view.LoadList(model.List, OnTaskListCompleted);
         }
-    }
 
-    public class OnTaskListCompletedCommand
-    {
-        public OnTaskListCompletedCommand()
+        private void OnTaskListCompleted()
         {
+            _model.SelectedListId++;
             
-        }
-        
-        public void Execute()
-        {
+            if (_model.NextListExists)
+            {
+                _view.LoadList(_model.List, OnTaskListCompleted);
+                return;
+            }
             
+            _view.HideList();
         }
     }
 }

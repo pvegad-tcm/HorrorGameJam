@@ -50,6 +50,9 @@ MonoBehaviour:
   tooltipMessage: Interact
   _qteInstaller: {fileID: 0}
   _template: {fileID: 11400000, guid: b1c1e9273e561f246a7bdcfd6a9c3456, type: 2}
+  _taskListView: {fileID: 0}
+  _taskList: {fileID: 0}
+  _taskId: 0
 --- !u!33 &4944405243232458335
 MeshFilter:
   m_ObjectHideFlags: 0

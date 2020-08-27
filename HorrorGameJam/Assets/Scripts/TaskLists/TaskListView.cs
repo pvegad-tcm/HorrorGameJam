@@ -16,7 +16,7 @@ namespace TaskLists
         public void LoadList(TaskList list, Action onListChecked)
         {
             _list = list;
-            _taskViews.ForEach(view => view.gameObject.SetActive(false));
+            HideList();
             
             for (var i = 0; i < list.Tasks.Length; i++)
             {
@@ -46,6 +46,11 @@ namespace TaskLists
             {
                 _taskViews[taskId].Check();
             }
+        }
+
+        public void HideList()
+        {
+            _taskViews.ForEach(view => view.gameObject.SetActive(false));
         }
     }
 }

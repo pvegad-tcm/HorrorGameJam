@@ -11,10 +11,10 @@ namespace Interactions
         public override void OnInteract()
         {
             gameObject.layer = (int)LayerValue.Default;
-            _ladderInstaller.StartClimbing(OnFinishedInteraction);
+            _ladderInstaller.StartClimbing(OnFinishedClimbing);
         }
 
-        protected override void OnFinishedInteraction()
+        private void OnFinishedClimbing()
         {
             gameObject.layer = (int)LayerValue.Selected;
         }

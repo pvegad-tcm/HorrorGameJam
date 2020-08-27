@@ -2,11 +2,15 @@ namespace TaskLists
 {
     public class TaskListModel
     {
-        public readonly TaskList List;
+        public int SelectedListId = 0;
+        private readonly TaskList[] _lists;
 
-        public TaskListModel(TaskList list)
+        public bool NextListExists => _lists.Length > SelectedListId;
+        public TaskList List => _lists[SelectedListId];
+        
+        public TaskListModel(TaskList[] lists)
         {
-            List = list;
+            _lists = lists;
         }
     }
 }
