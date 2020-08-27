@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e256f81b35d4d8343b38074986b53f0d, type: 3}
+  m_Name: QTE1B_StirCauldron
+  m_EditorClassIdentifier: 
+  PreConditionAnimation: {fileID: 0}
+  QuickTimeEventSteps:
+  - InputKeyCode: 274
+    InputNeededLength: 0
+    NumberOfInputsNeeded: 1
+    CallbackAnimation: {fileID: 11400000, guid: 89e5cb9bdaa43244d99e8cd2524241a7,
+      type: 2}
+  - InputKeyCode: 276
+    InputNeededLength: 0
+    NumberOfInputsNeeded: 1
+    CallbackAnimation: {fileID: 11400000, guid: 89e5cb9bdaa43244d99e8cd2524241a7,
+      type: 2}
+  - InputKeyCode: 273
+    InputNeededLength: 0
+    NumberOfInputsNeeded: 1
+    CallbackAnimation: {fileID: 11400000, guid: 89e5cb9bdaa43244d99e8cd2524241a7,
+      type: 2}
+  - InputKeyCode: 275
+    InputNeededLength: 0
+    NumberOfInputsNeeded: 1
+    CallbackAnimation: {fileID: 11400000, guid: 89e5cb9bdaa43244d99e8cd2524241a7,
+      type: 2}
+  - InputKeyCode: 274
+    InputNeededLength: 0
+    NumberOfInputsNeeded: 1
+    CallbackAnimation: {fileID: 11400000, guid: 89e5cb9bdaa43244d99e8cd2524241a7,
+      type: 2}
+  - InputKeyCode: 276
+    InputNeededLength: 0
+    NumberOfInputsNeeded: 1
+    CallbackAnimation: {fileID: 11400000, guid: 89e5cb9bdaa43244d99e8cd2524241a7,
+      type: 2}
+  - InputKeyCode: 273
+    InputNeededLength: 0
+    NumberOfInputsNeeded: 1
+    CallbackAnimation: {fileID: 11400000, guid: 89e5cb9bdaa43244d99e8cd2524241a7,
+      type: 2}
+  - InputKeyCode: 275
+    InputNeededLength: 0
+    NumberOfInputsNeeded: 1
+    CallbackAnimation: {fileID: 11400000, guid: e3fc223ae51ef7f4aa13758631d943d8,
+      type: 2}
