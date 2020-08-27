@@ -13,11 +13,13 @@ public class Shake : MonoBehaviour
 	public float _intensity = 8f;
 
 	Rigidbody rb;
+	Collider collider;
 
 
 	private void Awake()
 	{
 		rb = GetComponent<Rigidbody>();
+		collider = GetComponent<Collider>();
 	}
 
 	public void Begin(float intensity, float duration)
@@ -27,11 +29,14 @@ public class Shake : MonoBehaviour
 		_duration = duration;
 		StopAllCoroutines();
 		StartCoroutine(Shaking());
+		rb.useGravity = true;
+		collider.isTrigger = false;
 	}
 
 	private IEnumerator Shaking()
 	{
 		_timer = 0f;
+
 		
 		while (_timer < _duration)
 		{
