@@ -63,7 +63,7 @@ namespace VHS
                     {
                         if(interactionData.IsEmpty())
                         {
-                            _interactable.gameObject.layer = selectedLayer;
+                            _interactable.SetLayer(selectedLayer);
                             interactionData.Interactable = _interactable;
                             uiPanel.SetTooltip(_interactable.TooltipMessage);
                         }
@@ -71,8 +71,8 @@ namespace VHS
                         {
                             if(!interactionData.IsSameInteractable(_interactable))
                             {
-                                interactionData.Interactable.gameObject.layer = interactableLayer;
-                                _interactable.gameObject.layer = selectedLayer;
+                                interactionData.Interactable.SetLayer(interactableLayer);
+                                _interactable.SetLayer(selectedLayer);
                                 
                                 interactionData.Interactable = _interactable;
                                 uiPanel.SetTooltip(_interactable.TooltipMessage);
@@ -84,7 +84,7 @@ namespace VHS
                 {
                     if (!interactionData.IsEmpty())
                     {
-                        interactionData.Interactable.gameObject.layer = interactableLayer;
+                        interactionData.Interactable.SetLayer(interactableLayer);
                     }
                     
                     uiPanel.ResetUI();
