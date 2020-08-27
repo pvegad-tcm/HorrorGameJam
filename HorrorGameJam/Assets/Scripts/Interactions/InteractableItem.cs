@@ -18,13 +18,13 @@ namespace Interactions
 
         public override void OnInteract()
         {
-            gameObject.layer = (int) LayerValue.Default;
+            SetLayer((int) LayerValue.Default);
         }
 
         protected override void OnFinishedInteraction()
         {
             _taskListView.CheckTask(_taskList, _taskId);
-            _itemsToActivateAfterInteract.ForEach(item => item.gameObject.layer = (int)LayerValue.Interactable);
+            _itemsToActivateAfterInteract.ForEach(item => item.SetLayer((int)LayerValue.Interactable));
         }
     }
 }
