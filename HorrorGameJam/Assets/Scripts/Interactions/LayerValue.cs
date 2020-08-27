@@ -4,6 +4,8 @@ namespace Interactions
     {
         Default = 0,
         Interactable = 9,
-        Selected = 10
+        Selected = 10,
+        Physics = 11,
+        Player = 12
     }
 }
