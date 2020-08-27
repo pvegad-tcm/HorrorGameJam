@@ -13,8 +13,7 @@ namespace Interactions
         [BoxGroup("Task Lists")] [SerializeField] private TaskList _taskList;
         [BoxGroup("Task Lists")] [SerializeField] private int _taskId;
         
-        [Space] [ReorderableList] [SerializeField] 
-        private List<InteractableItem> _itemsToActivateAfterInteract;
+        [Space] [SerializeField] private List<InteractableItem> _itemsToActivateAfterInteract;
 
         public override void OnInteract()
         {
