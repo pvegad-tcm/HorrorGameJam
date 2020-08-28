@@ -1,5 +1,770 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8859449155969722103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Act_FireplaceLight
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Act_FireplaceLight
+  guid: 0ca0f41cd8c217439caadcc1bf81744a
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 4.6
+  Length: 1833
+--- !u!114 &-8525077268077796142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/Amb_RadioMusic_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/Amb_RadioMusic_Loop
+  guid: 9354c932b078e8468579ef764809b38e
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 5
+  Length: 57029
+--- !u!114 &-8276830590382607534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Spark
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Spark
+  guid: ee0988f3e56d964eb625119cfd98594e
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-8090463756805841506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stress_Drone/STRESS_LEVEL
+  m_EditorClassIdentifier: 
+  Name: STRESS_LEVEL
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 1
+--- !u!114 &-7739187366655839362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD_Project/fmod_slowjam/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637342123213131835
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-7555600149711014161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Act_Steps
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Act_Steps
+  guid: e36a998458be0446817c6fc3b986e757
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1600
+--- !u!114 &-6556209811886395628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Act_GrabLadle
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Act_GrabLadle
+  guid: d113408a2b78df46a0637aebf3b9d74f
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1333
+--- !u!114 &-6310771495669959217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Ambient_WindowsWind-Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Ambient_WindowsWind-Loop
+  guid: 3ed0c5515b23584db4a34e8a80600a91
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8666
+--- !u!114 &-5986307670235075225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Basement/Bmt_Int_FileCabinets
+  m_EditorClassIdentifier: 
+  Path: event:/Basement/Bmt_Int_FileCabinets
+  guid: b0c510634ed1c246be16f026a05f49df
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1981
+--- !u!114 &-5985055736312991287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Act_BucketFalls
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Act_BucketFalls
+  guid: c06533d6d979d341a8548cb99b3bc4dc
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3684
+--- !u!114 &-5963981392942004455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/Amb_ShutDown
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/Amb_ShutDown
+  guid: b1e1064c47c4c546ad2d89253a4e869e
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
+--- !u!114 &-5359867569642576717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/Ext_Amb_StormWindLoop_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/Ext_Amb_StormWindLoop_Loop
+  guid: 8a53adfdfbdd2a43bd47533428aae948
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 10100
+--- !u!114 &-4815118579618144685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Act_Bed
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Act_Bed
+  guid: c0ecdc301dbdbf4ebce70e7209a8a06e
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
+--- !u!114 &-4333696639858295761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Act_Cauldron_Impact
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Act_Cauldron_Impact
+  guid: 81eaabba2520ef4993a120b9ed31b85e
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-4127785375019759428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ending/Ext_Amb_ArmySoldiers_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Ending/Ext_Amb_ArmySoldiers_Loop
+  guid: 641c356c13354d41a913f73381a1664a
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15000
+--- !u!114 &-4020406312817595574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Int_PickUpLadder
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Int_PickUpLadder
+  guid: e84712dc894a224cb3f37566fb9552f2
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2098
+--- !u!114 &-3903626407929822023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Basement/Bmt_Int_OpenHatch
+  m_EditorClassIdentifier: 
+  Path: event:/Basement/Bmt_Int_OpenHatch
+  guid: 49ee8ad5f243d94a85752ec06db2b1b7
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 712
+--- !u!114 &-3341312457776649166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Light_Bulb_Ladder/RotateLightBulb
+  m_EditorClassIdentifier: 
+  Path: event:/Light_Bulb_Ladder/RotateLightBulb
+  guid: 260ba7030741f34a9082774986c54da0
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4841
+--- !u!114 &-3179571674621123129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/Ext_Amb_StormThunder
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/Ext_Amb_StormThunder
+  guid: b166f9de51db114c8098484d211eb8cd
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 10000
+--- !u!114 &-2792124924409451457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Int_PickUpBucket
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Int_PickUpBucket
+  guid: aee1233c8a20e842aaf2d3e51570d546
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1500
+--- !u!114 &-2613752090857388160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/Amb_LowQualityRadioMusic
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/Amb_LowQualityRadioMusic
+  guid: 748d9dc702fa044d881fd4902c2340e9
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 5
+  Length: 57029
+--- !u!114 &-2392910100595188403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Basement/Bmt_Amb_MachineryHum_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Basement/Bmt_Amb_MachineryHum_Loop
+  guid: d01173809a03704cbcac7ca74a712bbb
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 33776
+--- !u!114 &-2103561804647507377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Act_LiftLadle
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Act_LiftLadle
+  guid: 5c9714460dc41345a78764230dc6c12f
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3300
+--- !u!114 &-1912429686470851830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Basement/Bmt_Act_Steps
+  m_EditorClassIdentifier: 
+  Path: event:/Basement/Bmt_Act_Steps
+  guid: daeced6a89ee3f4a8eb944607734f01b
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1600
+--- !u!114 &-1632522894089314898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Act_MatchLight
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Act_MatchLight
+  guid: da350249854506419ba2d0b4323f70cf
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1750
+--- !u!114 &-1632187386395850938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_ChecklistFinishedAction
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_ChecklistFinishedAction
+  guid: aae58ee001bf484590b16c1c6fe965ef
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 666
+--- !u!114 &-1623931276331509974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Ambient_BrokenGlass
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Ambient_BrokenGlass
+  guid: 10744b5b4bf9b64e9baa513f2f60ca84
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-1519845403266706510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Int_UsingWoodenLadder
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Int_UsingWoodenLadder
+  guid: 97bb4615cc3b384ba11ec26fb2af5024
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1550
+--- !u!114 &-1473887237805819637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_ChecklistNewItem
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_ChecklistNewItem
+  guid: 923af3648bb5264eb6bd73b3b409a8d4
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 666
+--- !u!114 &-1280681730775150892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn-Int_DoorClosed
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn-Int_DoorClosed
+  guid: 756fcac492b3634fbe5b66853c358ddb
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1166
+--- !u!114 &-1040490608668445941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Basement/Bmt_Act_ComputerTurnOff
+  m_EditorClassIdentifier: 
+  Path: event:/Basement/Bmt_Act_ComputerTurnOff
+  guid: 4ae59bcdc0f51e49b07336e3a6fe579d
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3500
+--- !u!114 &-1008383025823615575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ending/Cbn_Act_DoorOpening
+  m_EditorClassIdentifier: 
+  Path: event:/Ending/Cbn_Act_DoorOpening
+  guid: d50ee7c07acae14e90270de6702ce516
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3285
+--- !u!114 &-983868983995588185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Shaking_House/STRESS_LEVEL
+  m_EditorClassIdentifier: 
+  Name: STRESS_LEVEL
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 1
+--- !u!114 &-594553444379264031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Act_MatchTryLightMatch
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Act_MatchTryLightMatch
+  guid: 7f0959bcad1afe4cbe5b90e0b030af65
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +777,661 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: 4456432192879661861}
+  - {fileID: -7739187366655839362}
+  EditorEvents:
+  - {fileID: -8859449155969722103}
+  - {fileID: -1623931276331509974}
+  - {fileID: 6542587046037112417}
+  - {fileID: 569905871987750088}
+  - {fileID: 948606881758213604}
+  - {fileID: -3341312457776649166}
+  - {fileID: 7318843042338135992}
+  - {fileID: 8825251639035296472}
+  - {fileID: 4193457672626759690}
+  - {fileID: -6310771495669959217}
+  - {fileID: 8655248704648036571}
+  - {fileID: -3903626407929822023}
+  - {fileID: -1040490608668445941}
+  - {fileID: 5143526699584268353}
+  - {fileID: -2103561804647507377}
+  - {fileID: -4127785375019759428}
+  - {fileID: 5624816954771034516}
+  - {fileID: -2613752090857388160}
+  - {fileID: -1280681730775150892}
+  - {fileID: -594553444379264031}
+  - {fileID: -4333696639858295761}
+  - {fileID: 6648818476828483768}
+  - {fileID: -5359867569642576717}
+  - {fileID: -1473887237805819637}
+  - {fileID: -8525077268077796142}
+  - {fileID: -1519845403266706510}
+  - {fileID: 4638567081772089974}
+  - {fileID: -1632187386395850938}
+  - {fileID: -2792124924409451457}
+  - {fileID: -5986307670235075225}
+  - {fileID: -3179571674621123129}
+  - {fileID: -5963981392942004455}
+  - {fileID: 6772303726735599830}
+  - {fileID: 1019108476071136944}
+  - {fileID: 6326326719055189625}
+  - {fileID: -5985055736312991287}
+  - {fileID: -4815118579618144685}
+  - {fileID: 3102036131248845081}
+  - {fileID: 3898906279423324102}
+  - {fileID: -2392910100595188403}
+  - {fileID: -6556209811886395628}
+  - {fileID: -1008383025823615575}
+  - {fileID: -1632522894089314898}
+  - {fileID: -1912429686470851830}
+  - {fileID: 3778633232297324929}
+  - {fileID: 6089490826632766849}
+  - {fileID: 6307824953773041195}
+  - {fileID: 2201186977201268081}
+  - {fileID: -7555600149711014161}
+  - {fileID: 288804408886167880}
+  - {fileID: 3315998414586444919}
+  - {fileID: -4020406312817595574}
+  - {fileID: -8276830590382607534}
+  - {fileID: 5556439649631928582}
+  - {fileID: 7024251605061971606}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  stringsBankWriteTime: 0
+  MasterBanks:
+  - {fileID: -7739187366655839362}
+  StringsBanks:
+  - {fileID: 4456432192879661861}
+  stringsBankWriteTime: 637342123213221510
   cacheVersion: 3
+--- !u!114 &288804408886167880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/Ext_Amb_Glitch
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/Ext_Amb_Glitch
+  guid: e3cdb18b1922eb4daece5ee08d15733d
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2666
+--- !u!114 &569905871987750088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Act_MopOnFloor
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Act_MopOnFloor
+  guid: 166a25eee88fc14fa2339c5b91e394d3
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 9342
+--- !u!114 &948606881758213604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Act_StirCauldron
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Act_StirCauldron
+  guid: 1ed0a03935067f43a01b0bd83362cb92
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7333
+--- !u!114 &1019108476071136944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Shaking_House
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Shaking_House
+  guid: b8185c9353bf2d4e91755f6fff9ff59e
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -983868983995588185}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 16000
+--- !u!114 &1061184763429255645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD_Project/fmod_slowjam/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637341580731701363
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2201186977201268081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Amb_LightbulbBlink_Loop_02
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Amb_LightbulbBlink_Loop_02
+  guid: e10ae9f43bc704448e595caa7fa44d18
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 100
+--- !u!114 &3102036131248845081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Light_Bulb_Ladder/ReleaseLightBulb
+  m_EditorClassIdentifier: 
+  Path: event:/Light_Bulb_Ladder/ReleaseLightBulb
+  guid: c1b02ab90c414741a3cbe1ab28e02ada
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 300
+--- !u!114 &3315998414586444919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Int_WindowClosed
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Int_WindowClosed
+  guid: e68084eec16f864f951bf69fcf1bc9b1
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2333
+--- !u!114 &3778633232297324929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Light_Bulb_Ladder/DropLadder
+  m_EditorClassIdentifier: 
+  Path: event:/Light_Bulb_Ladder/DropLadder
+  guid: de5f786692ce154daa92f5324e8efc8d
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2946
+--- !u!114 &3898906279423324102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/Amb_RadioStatic_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/Amb_RadioStatic_Loop
+  guid: ca96cdb16b302340b243fead3680a1e8
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13319
+--- !u!114 &4193457672626759690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Light_Bulb_Ladder/LightBulbBreaks
+  m_EditorClassIdentifier: 
+  Path: event:/Light_Bulb_Ladder/LightBulbBreaks
+  guid: 3971bb2a20c40945a6a99e98a2f0b391
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1200
+--- !u!114 &4456432192879661861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD_Project/fmod_slowjam/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637342123213221510
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 3592
+  Exists: 1
+--- !u!114 &4638567081772089974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Basement/Bmt_Int_Paper
+  m_EditorClassIdentifier: 
+  Path: event:/Basement/Bmt_Int_Paper
+  guid: a7a564a19923d5408d3c7d97a55cb1d1
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 15687
+--- !u!114 &5143526699584268353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ending/Ext_Amb_Sirens_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Ending/Ext_Amb_Sirens_Loop
+  guid: 5305947adbe30b48be866c15e43c2ee4
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &5556439649631928582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Amb_Fire_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Amb_Fire_Loop
+  guid: f3e81a58c7dc1749bc2db5374db8a817
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 4
+  Length: 29228
+--- !u!114 &5624816954771034516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ending/Ext_Amb_Cars
+  m_EditorClassIdentifier: 
+  Path: event:/Ending/Ext_Amb_Cars
+  guid: 6adba6678e18c144b1570547600b9c49
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11344
+--- !u!114 &6089490826632766849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Int_DropBucket
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Int_DropBucket
+  guid: e070764a7cc1784c87b3e2dc08fd734f
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1746
+--- !u!114 &6307824953773041195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/Stress_Drone
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/Stress_Drone
+  guid: e0f3cf50bc8b274b8f05cece04f287ba
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8090463756805841506}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 16000
+--- !u!114 &6326326719055189625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Int_TakeMop
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Int_TakeMop
+  guid: bb7a9c3f54beb241a7edc5c1cc09f178
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6877
+--- !u!114 &6542587046037112417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/Amb_ElectricityTurnOn
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/Amb_ElectricityTurnOn
+  guid: 1333ad43819fcf47b8fbf4ba86e99985
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2778
+--- !u!114 &6648818476828483768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Basement/Bmt_Int_Computer
+  m_EditorClassIdentifier: 
+  Path: event:/Basement/Bmt_Int_Computer
+  guid: 8a393e6d7570d54ba989892eee3a301b
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 700
+--- !u!114 &6772303726735599830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Act_GasCanister
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Act_GasCanister
+  guid: b40689d4d5376c4eb5002d2500d202a8
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3500
+--- !u!114 &7024251605061971606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Basement/Bmt_Int_UsingMetallicLadder
+  m_EditorClassIdentifier: 
+  Path: event:/Basement/Bmt_Int_UsingMetallicLadder
+  guid: f55effc44cce3b44a87c64177d3289f4
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1600
+--- !u!114 &7318843042338135992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_ChecklistAppears
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_ChecklistAppears
+  guid: 2ff7262931853d4a857b6be3e2c31c14
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 666
+--- !u!114 &8655248704648036571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cbn/Cbn_Amb_LightbulbBlink_Loop_01
+  m_EditorClassIdentifier: 
+  Path: event:/Cbn/Cbn_Amb_LightbulbBlink_Loop_01
+  guid: 403ce03f2e9f64458f056a4e5347e96d
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2250
+--- !u!114 &8825251639035296472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ending/Ext_Amb_Screams&Gunshots_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Ending/Ext_Amb_Screams&Gunshots_Loop
+  guid: 3398662aca7a2944a8c88a566fa4302c
+  Banks:
+  - {fileID: -7739187366655839362}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 14000

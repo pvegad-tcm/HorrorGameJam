@@ -39,6 +39,9 @@
 		<relationship name="parameters">
 			<destination>{06663d62-dbff-4ebd-bb60-78eb88d595c9}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{9e22372d-66d5-4bc9-8c1d-af207daa16d6}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{96b64a05-6477-4850-9aa5-0aa8c5aa6f84}">
 		<relationship name="masterBus">
@@ -215,7 +218,6 @@
 		<property name="color">
 			<value>Red</value>
 		</property>
-		<property name="name" />
 		<property name="volume">
 			<value>5</value>
 		</property>

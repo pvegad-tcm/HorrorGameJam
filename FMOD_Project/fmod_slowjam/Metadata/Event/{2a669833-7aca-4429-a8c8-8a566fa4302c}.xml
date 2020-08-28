@@ -38,6 +38,9 @@
 		<relationship name="timeline">
 			<destination>{e60effde-b770-4f0a-8e23-e77285511a39}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{9e22372d-66d5-4bc9-8c1d-af207daa16d6}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{8a7d980c-04cc-41fc-8daf-7d83de209fb3}">
 		<relationship name="masterBus">
@@ -190,7 +193,6 @@
 		<property name="timelockedOffset">
 			<value>14</value>
 		</property>
-		<property name="name" />
 		<property name="volume">
 			<value>-8</value>
 		</property>
@@ -269,7 +271,6 @@
 		<property name="length">
 			<value>5.5</value>
 		</property>
-		<property name="name" />
 		<property name="volume">
 			<value>-5</value>
 		</property>
@@ -298,7 +299,6 @@
 		<property name="length">
 			<value>7.5</value>
 		</property>
-		<property name="name" />
 		<relationship name="sound">
 			<destination>{1d79c3e4-0d07-4f37-ade1-ee3101312dc0}</destination>
 		</relationship>
