@@ -45,11 +45,13 @@ namespace TaskLists
             }
         }
 
-        public void CheckTask(TaskList list, int taskId)
+        public void CheckTask(TaskList list, int[] taskId)
         {
-            if (list == _list)
+            if (list != _list) return;
+            
+            foreach (var id in taskId)
             {
-                _taskViews[taskId].Check();
+                _taskViews[id].Check();
             }
         }
 
