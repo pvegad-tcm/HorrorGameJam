@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{e1ab6285-e1b1-4e74-bdd6-27dafc058b70}">
+		<property name="assetPath">
+			<value>Shaking_House/shake_06.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.2192063492063494</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{732e157a-11f4-43ac-877e-e7fc16f42b28}</destination>
+		</relationship>
+	</object>
+</objects>
