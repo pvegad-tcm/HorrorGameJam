@@ -14,47 +14,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreConditionAnimation: {fileID: 0}
   QuickTimeEventSteps:
-  - InputKeyCode: 275
+  - InputKeyCode: 100
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 276
+  - InputKeyCode: 97
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 11400000, guid: ccc3883087a43cf42b96bdd91cf1b1dd,
+    CallbackAnimation: {fileID: 11400000, guid: e154d63f8728c3e4eb117b6e460c9820,
       type: 2}
-  - InputKeyCode: 275
+  - InputKeyCode: 100
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 276
+  - InputKeyCode: 97
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 11400000, guid: ccc3883087a43cf42b96bdd91cf1b1dd,
+    CallbackAnimation: {fileID: 11400000, guid: e154d63f8728c3e4eb117b6e460c9820,
       type: 2}
-  - InputKeyCode: 275
+  - InputKeyCode: 100
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 276
+  - InputKeyCode: 97
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 11400000, guid: ccc3883087a43cf42b96bdd91cf1b1dd,
+    CallbackAnimation: {fileID: 11400000, guid: e154d63f8728c3e4eb117b6e460c9820,
       type: 2}
-  - InputKeyCode: 275
+  - InputKeyCode: 100
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 276
+  - InputKeyCode: 97
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
-    CallbackAnimation: {fileID: 11400000, guid: ccc3883087a43cf42b96bdd91cf1b1dd,
+    CallbackAnimation: {fileID: 11400000, guid: e154d63f8728c3e4eb117b6e460c9820,
       type: 2}
-  - InputKeyCode: 275
+  - InputKeyCode: 100
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 0}
-  - InputKeyCode: 276
+  - InputKeyCode: 97
     InputNeededLength: 0
     NumberOfInputsNeeded: 1
     CallbackAnimation: {fileID: 11400000, guid: 8d97ed020cd19584e874351688ff5b1d,
