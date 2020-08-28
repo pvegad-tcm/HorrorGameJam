@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{174e2990-5f5f-49c4-816b-ad54179d3579}">
 		<property name="assetPath">
-			<value>Ambience_Cabin/COLLISION_wood_creak_02.wav</value>
+			<value>Cabin/COLLISION_wood_creak_02.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

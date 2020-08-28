@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{51c5d03e-235b-4d58-b4a3-4e8a80600a91}">
 		<property name="name">
-			<value>Cbn_Ambient_WindowsWind-Loop</value>
+			<value>Cbn_Ambient_WindowsWind_Loop</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -145,6 +145,7 @@
 	<object class="MixerBusEffectChain" id="{f7ea9195-fac2-4684-bff8-31a43c927df9}">
 		<relationship name="effects">
 			<destination>{e98ebbf5-1d91-45af-b5b2-0fccfff975e9}</destination>
+			<destination>{65ffb6c4-77a8-403a-b4c5-bae7049acba3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7b60fd0d-49b2-4e47-a394-21da2fd47ed9}" />
@@ -186,6 +187,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{e98ebbf5-1d91-45af-b5b2-0fccfff975e9}" />
+	<object class="ObjectSpatialiserEffect" id="{65ffb6c4-77a8-403a-b4c5-bae7049acba3}">
+		<property name="distanceRolloffType">
+			<value>2</value>
+		</property>
+		<property name="maximumDistance">
+			<value>5.20000029</value>
+		</property>
+	</object>
 	<object class="MultibandEqEffect" id="{18962567-352c-4ecf-bc41-70e48e6f0b72}">
 		<property name="filterTypeA">
 			<value>10</value>
