@@ -10,7 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa7bdef1ae794ade8dba93a0a7f8f454, type: 3}
-  m_Name: QTE3_TaskList
+  m_Name: QTE3C_TaskList
   m_EditorClassIdentifier: 
   Tasks:
-  - You're sick, lie in bed for a nap. This is for your own good
+  - 'CALM DOWN STOP  '
+  - 'CALMDOWNCALMDOWNCALMDOWN  '
+  - "STOPTHIS DON\u2019T STOPNOW"
