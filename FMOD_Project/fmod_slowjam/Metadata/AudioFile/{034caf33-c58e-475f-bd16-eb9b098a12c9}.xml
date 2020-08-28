@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{034caf33-c58e-475f-bd16-eb9b098a12c9}">
 		<property name="assetPath">
-			<value>Ambience_Cabin/thunder_05.wav</value>
+			<value>Cabin/thunder_05.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

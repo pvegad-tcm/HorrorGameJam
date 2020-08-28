@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{a3d1ea9d-f58b-41a2-a352-fb8358a1ffe5}">
+		<property name="assetPath">
+			<value>Cabin/fireplace_sequence.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>23.18578231292517</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{732e157a-11f4-43ac-877e-e7fc16f42b28}</destination>
+		</relationship>
+	</object>
+</objects>

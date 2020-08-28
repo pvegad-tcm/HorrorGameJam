@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7bdef1ae794ade8dba93a0a7f8f454, type: 3}
   m_Name: QTE3B_TaskList
   m_EditorClassIdentifier: 
+  Title: IGNORE THIS
   Tasks:
-  - IGNORE THIS
-  - "THERE\u2019S SOMETHING WRONG WITH YOU"
   - 'LIE DOWN '
+  - "THERE\u2019S SOMETHING WRONG WITH YOU"
+  - STOP

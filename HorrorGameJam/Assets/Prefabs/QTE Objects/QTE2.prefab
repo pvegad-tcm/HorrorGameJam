@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3197040815331893565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3852309395863039248}
+  m_Layer: 0
+  m_Name: Sounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3852309395863039248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197040815331893565}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6849524652015010305}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &6849524650837820412
 Animator:
   serializedVersion: 3
@@ -46,6 +76,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 3852309395863039248}
   - {fileID: 6849524651528597336}
   - {fileID: 6849524652104216333}
   - {fileID: 6849524650837820408}
@@ -103,7 +134,7 @@ PrefabInstance:
     - target: {fileID: 5114960763260290832, guid: f6e6e768c54a76243908e61317a3d526,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5114960763260290832, guid: f6e6e768c54a76243908e61317a3d526,
         type: 3}
@@ -308,7 +339,7 @@ PrefabInstance:
     - target: {fileID: 7950927816853194039, guid: 8b95c9b89f41d2346bc04549867b9608,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7950927816853194039, guid: 8b95c9b89f41d2346bc04549867b9608,
         type: 3}
@@ -443,7 +474,7 @@ PrefabInstance:
     - target: {fileID: 7083386490316779543, guid: 30c571d7639b3c24890d265a63a0b009,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7083386490316779543, guid: 30c571d7639b3c24890d265a63a0b009,
         type: 3}
@@ -532,7 +563,7 @@ PrefabInstance:
     - target: {fileID: 286531588520958453, guid: 8657d8e35e03569468c50313e2aaaa79,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 286531588520958453, guid: 8657d8e35e03569468c50313e2aaaa79,
         type: 3}

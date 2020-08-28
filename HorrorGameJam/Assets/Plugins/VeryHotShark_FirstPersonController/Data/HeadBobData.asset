@@ -117,7 +117,7 @@ MonoBehaviour:
   xAmplitude: 0.05
   yAmplitude: 0.1
   xFrequency: 2
-  yFrequency: 4
+  yFrequency: 2.5
   runAmplitudeMultiplier: 1.5
   runFrequencyMultiplier: 1.5
   crouchAmplitudeMultiplier: 0.2
