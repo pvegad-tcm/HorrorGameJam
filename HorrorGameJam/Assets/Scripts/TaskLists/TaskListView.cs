@@ -1,12 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 
 namespace TaskLists
 {
     public class TaskListView : MonoBehaviour
     {
+        [SerializeField] private TextMeshProUGUI _titleList;
         [SerializeField] private Transform _parent;
         [SerializeField] private TaskView _prefab;
 
@@ -17,6 +19,9 @@ namespace TaskLists
         {
             _list = list;
             HideList();
+            SendMessage("Play");
+            
+            _titleList.text = list.Title;
             
             for (var i = 0; i < list.Tasks.Length; i++)
             {
@@ -50,6 +55,7 @@ namespace TaskLists
 
         public void HideList()
         {
+            _titleList.text = "";
             _taskViews.ForEach(view => view.gameObject.SetActive(false));
         }
     }

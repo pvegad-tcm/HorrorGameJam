@@ -1093,11 +1093,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1770507159855641026, guid: c04189b1e2c8a0641ba9ca6f669c7de5,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1770507161432756456, guid: c04189b1e2c8a0641ba9ca6f669c7de5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6141,6 +6136,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2c05c6d9fb483848a548d84eeda4324, type: 3}
+--- !u!1 &1190718730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 959538920224028063, guid: e2c05c6d9fb483848a548d84eeda4324,
+    type: 3}
+  m_PrefabInstance: {fileID: 1190718729}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1190718731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190718730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Cbn/Cbn_Act_Bed
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &1199158223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7890,60 +7914,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccc9e13d5ce7a0e4cbdd63d7b0d6faab, type: 3}
---- !u!1 &1540469186
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1540469187}
-  - component: {fileID: 1540469188}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1540469187
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540469186}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.112, y: -1.772, z: 3.428}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1898126888}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1540469188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540469186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Cbn/Cbn_Ambient_WindowsWind-Loop_3D
-  PlayEvent: 11
-  StopEvent: 12
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 2.5
 --- !u!1001 &1542349171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10409,12 +10379,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 453552b4f4fda2d49b3e525ae2ba61ae,
     type: 3}
   m_PrefabInstance: {fileID: 1894984092}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1898126888 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1770507161432756456, guid: c04189b1e2c8a0641ba9ca6f669c7de5,
-    type: 3}
-  m_PrefabInstance: {fileID: 164331560}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1898146294
 PrefabInstance:
