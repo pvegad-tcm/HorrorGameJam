@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{f17c280d-252f-4528-b6d9-8460a5040119}">
+		<property name="assetPath">
+			<value>Ending/347792__heyhar__ambientgunfire.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>140.1730612244898</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{732e157a-11f4-43ac-877e-e7fc16f42b28}</destination>
+		</relationship>
+	</object>
+</objects>
