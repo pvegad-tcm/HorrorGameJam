@@ -11,7 +11,7 @@ namespace Interactions
         {
             base.OnInteract();
             _animationTimeline.Play();
-            OnFinishedInteraction();
+            OnFinishedInteractionDelayed();
         }
     }
 }

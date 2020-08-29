@@ -6,11 +6,11 @@ namespace Menu
 {
     public class SceneChanger : MonoBehaviour
     {
-        [SerializeField] private Object _sceneToLoad;
+        [SerializeField] private string _sceneToLoad;
 
         private void Start()
         {
-            SceneManager.LoadScene(_sceneToLoad.name);
+            SceneManager.LoadScene(_sceneToLoad);
         }
     }
 }

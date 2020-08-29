@@ -26,9 +26,6 @@ public class FlickeringLight : MonoBehaviour
     {
         flickerTimer = Random.Range(flickerMinTime, flickerMaxTime);
         throbTimer = Random.Range(throbMinTime, throbMaxTime);
-
-        //Debug.Log("Initial Intensity: " + _Light.intensity);
-
     }
 
     void Update()
@@ -54,7 +51,6 @@ public class FlickeringLight : MonoBehaviour
         {
             _Light.intensity = Random.Range(throbMinIntensity, throbMaxIntensity);
             throbTimer = Random.Range(throbMinTime, throbMaxTime);
-           //Debug.Log(_Light.intensity);
         }
     }
 

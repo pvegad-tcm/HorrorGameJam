@@ -19,8 +19,11 @@ namespace TaskLists
         {
             _list = list;
             HideList();
-            SendMessage("Play");
-            
+            if (gameObject.activeSelf)
+            {
+                SendMessage("Play");
+            }
+
             _titleList.text = list.Title;
             
             for (var i = 0; i < list.Tasks.Length; i++)

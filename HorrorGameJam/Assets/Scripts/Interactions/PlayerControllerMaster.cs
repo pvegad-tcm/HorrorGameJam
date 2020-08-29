@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEditor;
 using VHS;
 
 public class PlayerControllerMaster : MonoBehaviour
@@ -37,6 +38,18 @@ public class PlayerControllerMaster : MonoBehaviour
         _inputHandler.enabled = false;
             
         _disabled = true;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+#if UNITY_EDITOR
+            EditorApplication.isPlaying = false;
+#else
+            Application.Quit();
+#endif
+        }
     }
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
