@@ -38,7 +38,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Int_PickUpBucket
   guid: aee1233c8a20e842aaf2d3e51570d546
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -78,7 +78,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Amb_LightbulbBlink_Loop_02
   guid: e10ae9f43bc704448e595caa7fa44d18
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -147,7 +147,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Int_TakeMop
   guid: bb7a9c3f54beb241a7edc5c1cc09f178
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -170,7 +170,7 @@ MonoBehaviour:
   Path: event:/Ending/Ext_Amb_ArmySoldiers_Loop
   guid: 641c356c13354d41a913f73381a1664a
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -228,7 +228,7 @@ MonoBehaviour:
   Path: event:/Amb/Amb_RadioMusic_Loop
   guid: 9354c932b078e8468579ef764809b38e
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -274,7 +274,7 @@ MonoBehaviour:
   Path: event:/Amb/Ext_Amb_StormThunder
   guid: b166f9de51db114c8098484d211eb8cd
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -297,7 +297,7 @@ MonoBehaviour:
   Path: event:/Basement/Bmt_Int_OpenHatch
   guid: 49ee8ad5f243d94a85752ec06db2b1b7
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -343,7 +343,7 @@ MonoBehaviour:
   Path: event:/UI/UI_ChecklistFinishedAction
   guid: aae58ee001bf484590b16c1c6fe965ef
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -366,7 +366,7 @@ MonoBehaviour:
   Path: event:/Light_Bulb_Ladder/LightBulbBreaks
   guid: 3971bb2a20c40945a6a99e98a2f0b391
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -412,7 +412,7 @@ MonoBehaviour:
   Path: event:/Basement/Bmt_Int_Computer
   guid: 8a393e6d7570d54ba989892eee3a301b
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -504,7 +504,7 @@ MonoBehaviour:
   Path: event:/Cbn/Spark
   guid: ee0988f3e56d964eb625119cfd98594e
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -527,7 +527,7 @@ MonoBehaviour:
   Path: event:/Basement/Bmt_Act_ComputerTurnOff
   guid: 4ae59bcdc0f51e49b07336e3a6fe579d
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -550,7 +550,7 @@ MonoBehaviour:
   Path: event:/UI/UI_ChecklistNewItem
   guid: 923af3648bb5264eb6bd73b3b409a8d4
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -573,7 +573,7 @@ MonoBehaviour:
   Path: event:/New_Cbn/Cbn_Boiling_Cauldron_Loop
   guid: 811967e0b3cade429cddabd7e70a88c6
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -619,7 +619,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Amb_Fire_Loop
   guid: f3e81a58c7dc1749bc2db5374db8a817
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -665,7 +665,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Int_UsingWoodenLadder
   guid: 97bb4615cc3b384ba11ec26fb2af5024
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -688,7 +688,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Act_Bed
   guid: c0ecdc301dbdbf4ebce70e7209a8a06e
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -711,7 +711,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Act_Cauldron_Impact
   guid: 81eaabba2520ef4993a120b9ed31b85e
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -734,7 +734,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Act_GrabLadle
   guid: d113408a2b78df46a0637aebf3b9d74f
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -843,7 +843,7 @@ MonoBehaviour:
   Path: event:/Amb/Amb_RadioStatic_Loop
   guid: ca96cdb16b302340b243fead3680a1e8
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -889,7 +889,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Act_GasCanister
   guid: b40689d4d5376c4eb5002d2500d202a8
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -935,7 +935,7 @@ MonoBehaviour:
   Path: event:/Basement/Bmt_Amb_MachineryHum_Loop
   guid: d01173809a03704cbcac7ca74a712bbb
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -958,7 +958,7 @@ MonoBehaviour:
   Path: event:/Light_Bulb_Ladder/RotateLightBulb
   guid: 260ba7030741f34a9082774986c54da0
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1004,7 +1004,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Act_FireplaceLight
   guid: 0ca0f41cd8c217439caadcc1bf81744a
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -1027,7 +1027,7 @@ MonoBehaviour:
   Path: event:/Light_Bulb_Ladder/DropLadder
   guid: de5f786692ce154daa92f5324e8efc8d
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1119,7 +1119,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Int_WindowClosed
   guid: e68084eec16f864f951bf69fcf1bc9b1
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1280,7 +1280,7 @@ MonoBehaviour:
   Path: event:/Basement/Bmt_Int_UsingMetallicLadder
   guid: f55effc44cce3b44a87c64177d3289f4
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1349,7 +1349,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Act_MatchLight
   guid: da350249854506419ba2d0b4323f70cf
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1372,7 +1372,7 @@ MonoBehaviour:
   Path: event:/New_Cbn/Cbn-Stir_Cauldron
   guid: 1cd7151191aa604b939af04ec3dcad7f
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1395,7 +1395,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Act_MopOnFloor
   guid: 166a25eee88fc14fa2339c5b91e394d3
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1481,7 +1481,7 @@ MonoBehaviour:
   Path: event:/Basement/Bmt_Int_FileCabinets
   guid: b0c510634ed1c246be16f026a05f49df
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1504,7 +1504,7 @@ MonoBehaviour:
   Path: event:/New_Cbn/Cbn_Fireplace_Sequence
   guid: d7ca427d07855f4f93c34260ca69d121
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -1550,12 +1550,12 @@ MonoBehaviour:
   Path: event:/Cbn/Shaking_House
   guid: b8185c9353bf2d4e91755f6fff9ff59e
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 2216588212194026357}
+  - {fileID: 9016552936375877158}
   MinDistance: 0
   MaxDistance: 0
   Length: 16000
@@ -1573,7 +1573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 3951380826858042293}
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   EditorEvents:
   - {fileID: -3090594044958033826}
   - {fileID: 418333992157077488}
@@ -1638,10 +1638,10 @@ MonoBehaviour:
   - {fileID: -1492843008349366955}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   StringsBanks:
   - {fileID: 3951380826858042293}
-  stringsBankWriteTime: 637342285066294349
+  stringsBankWriteTime: 637343027153409332
   cacheVersion: 3
 --- !u!114 &288804408886167880
 MonoBehaviour:
@@ -1681,7 +1681,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Ambient_BrokenGlass
   guid: 10744b5b4bf9b64e9baa513f2f60ca84
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -1704,7 +1704,7 @@ MonoBehaviour:
   Path: event:/UI/UI_ChecklistAppears
   guid: 2ff7262931853d4a857b6be3e2c31c14
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1750,7 +1750,7 @@ MonoBehaviour:
   Path: event:/Ending/Cbn_Act_DoorOpening
   guid: d50ee7c07acae14e90270de6702ce516
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1838,7 +1838,7 @@ MonoBehaviour:
   Path: event:/New_Cbn/Cbn_Wooden_Stick_Falls
   guid: 52a407f3daedc54c9cb50c629f734944
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1861,15 +1861,32 @@ MonoBehaviour:
   Path: event:/Amb/Stress_Drone
   guid: e0f3cf50bc8b274b8f05cece04f287ba
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -4092802950807519471}
+  - {fileID: 1949033697680209889}
   MinDistance: 0
   MaxDistance: 0
   Length: 16000
+--- !u!114 &1949033697680209889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stress_Drone/STRESS_LEVEL
+  m_EditorClassIdentifier: 
+  Name: STRESS_LEVEL
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 1
 --- !u!114 &2201186977201268081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1910,6 +1927,24 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 1
+--- !u!114 &2484928156260632244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD_Project/fmod_slowjam/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637343027153279666
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &3102036131248845081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1948,7 +1983,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Act_StirCauldron
   guid: 1ed0a03935067f43a01b0bd83362cb92
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1994,7 +2029,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Int_DropBucket
   guid: e070764a7cc1784c87b3e2dc08fd734f
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2017,7 +2052,7 @@ MonoBehaviour:
   Path: event:/Amb/Amb_ElectricityTurnOn
   guid: 1333ad43819fcf47b8fbf4ba86e99985
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2063,7 +2098,7 @@ MonoBehaviour:
   Path: event:/Amb/Ext_Amb_StormWindLoop_Loop
   guid: 8a53adfdfbdd2a43bd47533428aae948
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -2108,7 +2143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../FMOD_Project/fmod_slowjam/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637342285066294349
+  lastModified: 637343027153409332
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -2152,7 +2187,7 @@ MonoBehaviour:
   Path: event:/Light_Bulb_Ladder/ReleaseLightBulb
   guid: c1b02ab90c414741a3cbe1ab28e02ada
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2212,7 +2247,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Act_MatchTryLightMatch
   guid: 7f0959bcad1afe4cbe5b90e0b030af65
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2299,7 +2334,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn-Int_DoorClosed
   guid: 756fcac492b3634fbe5b66853c358ddb
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2368,7 +2403,7 @@ MonoBehaviour:
   Path: event:/Basement/Bmt_Int_Paper
   guid: a7a564a19923d5408d3c7d97a55cb1d1
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -2391,7 +2426,7 @@ MonoBehaviour:
   Path: event:/Amb/Ext_Amb_Glitch
   guid: e3cdb18b1922eb4daece5ee08d15733d
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2455,7 +2490,7 @@ MonoBehaviour:
   Path: event:/Ending/Ext_Amb_Cars
   guid: 6adba6678e18c144b1570547600b9c49
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -2525,7 +2560,7 @@ MonoBehaviour:
   Path: event:/New_Cbn/Cbn_Act_FireplaceLight
   guid: 4af316f63e2f9c409e0b6c61ab266040
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2617,7 +2652,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Ambient_WindowsWind_Loop
   guid: 3ed0c5515b23584db4a34e8a80600a91
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -2640,7 +2675,7 @@ MonoBehaviour:
   Path: event:/Basement/Bmt_Act_Steps
   guid: daeced6a89ee3f4a8eb944607734f01b
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -2686,7 +2721,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Act_LiftLadle
   guid: 5c9714460dc41345a78764230dc6c12f
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2732,7 +2767,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Act_Steps
   guid: e36a998458be0446817c6fc3b986e757
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -2755,7 +2790,7 @@ MonoBehaviour:
   Path: event:/New_Cbn/Cbn_Matchbox_Sequence
   guid: 570f8431c3552e4a9ee4613f18974597
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2778,7 +2813,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Int_PickUpLadder
   guid: e84712dc894a224cb3f37566fb9552f2
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2801,7 +2836,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Amb_LightbulbBlink_Loop_01
   guid: 403ce03f2e9f64458f056a4e5347e96d
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -2824,7 +2859,7 @@ MonoBehaviour:
   Path: event:/Cbn/Cbn_Act_BucketFalls
   guid: c06533d6d979d341a8548cb99b3bc4dc
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2847,7 +2882,7 @@ MonoBehaviour:
   Path: event:/Ending/Ext_Amb_Screams&Gunshots_Loop
   guid: 3398662aca7a2944a8c88a566fa4302c
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -2870,7 +2905,7 @@ MonoBehaviour:
   Path: event:/Amb/Amb_LowQualityRadioMusic
   guid: 748d9dc702fa044d881fd4902c2340e9
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2916,7 +2951,7 @@ MonoBehaviour:
   Path: event:/Amb/Amb_ShutDown
   guid: b1e1064c47c4c546ad2d89253a4e869e
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2962,7 +2997,7 @@ MonoBehaviour:
   Path: event:/Ending/Ext_Amb_Sirens_Loop
   guid: 5305947adbe30b48be866c15e43c2ee4
   Banks:
-  - {fileID: 5388938647810995663}
+  - {fileID: 2484928156260632244}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2970,3 +3005,20 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &9016552936375877158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Shaking_House/STRESS_LEVEL
+  m_EditorClassIdentifier: 
+  Name: STRESS_LEVEL
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 1
