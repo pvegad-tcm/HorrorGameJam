@@ -847,6 +847,11 @@ PrefabInstance:
       propertyPath: _soundObject
       value: 
       objectReference: {fileID: 1166285809}
+    - target: {fileID: 6721579220587083089, guid: c88cf3a894a62104ea4461bf0bc0c7f0,
+        type: 3}
+      propertyPath: _delayOnFinishInteraction
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6721579220587083091, guid: c88cf3a894a62104ea4461bf0bc0c7f0,
         type: 3}
       propertyPath: m_LocalPosition.x

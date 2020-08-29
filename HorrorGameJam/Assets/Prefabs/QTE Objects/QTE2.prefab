@@ -376,6 +376,11 @@ PrefabInstance:
       propertyPath: _soundObject
       value: 
       objectReference: {fileID: 1294095755}
+    - target: {fileID: 5114960763260290836, guid: f6e6e768c54a76243908e61317a3d526,
+        type: 3}
+      propertyPath: _delayOnFinishInteraction
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5114960763260290842, guid: f6e6e768c54a76243908e61317a3d526,
         type: 3}
       propertyPath: m_SceneBindings.Array.size
@@ -552,6 +557,10 @@ PrefabInstance:
     - target: {fileID: 1833520676, guid: 30c571d7639b3c24890d265a63a0b009, type: 3}
       propertyPath: _taskIds.Array.data[0]
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1833520676, guid: 30c571d7639b3c24890d265a63a0b009, type: 3}
+      propertyPath: _delayOnFinishInteraction
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 242363240259248139, guid: 30c571d7639b3c24890d265a63a0b009,
         type: 3}
