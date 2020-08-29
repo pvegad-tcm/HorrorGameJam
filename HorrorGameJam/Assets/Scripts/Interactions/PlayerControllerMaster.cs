@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEditor;
 using VHS;
 
 public class PlayerControllerMaster : MonoBehaviour
@@ -44,11 +43,7 @@ public class PlayerControllerMaster : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-#if UNITY_EDITOR
-            EditorApplication.isPlaying = false;
-#else
             Application.Quit();
-#endif
         }
     }
 
