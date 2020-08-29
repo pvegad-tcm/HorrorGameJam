@@ -66,7 +66,7 @@ GameObject:
   - component: {fileID: 1349535325631546692}
   - component: {fileID: 1349535325631546691}
   m_Layer: 0
-  m_Name: Area Light
+  m_Name: ComputerGreenLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -451,7 +451,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1349535326999450663}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5.3}
+  m_LocalPosition: {x: 0, y: 0, z: 0.2}
   m_LocalScale: {x: -0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1349535327643871274}
@@ -459,7 +459,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.24, y: 0.8}
+  m_AnchoredPosition: {x: 2.2, y: 0.8}
   m_SizeDelta: {x: 159.05737, y: 153.70258}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1349535326999450666
@@ -922,6 +922,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659709533161029270, guid: 825c3d94f792fe14cb972c3f3caa7297,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6765052236063693156, guid: 825c3d94f792fe14cb972c3f3caa7297,
         type: 3}
