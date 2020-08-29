@@ -162,11 +162,13 @@ MonoBehaviour:
   tooltipMessage: Open hatch
   meshesToHighlight:
   - {fileID: 1320920602023962513}
+  _delayOnFinishInteraction: 0
   _taskListView: {fileID: 0}
   _soundObject: {fileID: 0}
   _taskList: {fileID: 11400000, guid: 29d60b24fd4eda54192770d5cd9f11bd, type: 2}
   _taskIds: 
-  _itemsToActivateAfterInteract: []
+  _itemsToActivateAfterInteract:
+  - {fileID: 0}
   _qteInstaller: {fileID: 0}
   _template: {fileID: 11400000, guid: 7f640a145ed9d004a81967ebc65bbcb3, type: 2}
 --- !u!65 &3892616593348882070

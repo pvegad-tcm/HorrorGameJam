@@ -1295,7 +1295,7 @@ PrefabInstance:
     - target: {fileID: 1858622095443381318, guid: 9fa3c901173628143886ec4f1c101538,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.178
+      value: 0.065
       objectReference: {fileID: 0}
     - target: {fileID: 1858622095443381318, guid: 9fa3c901173628143886ec4f1c101538,
         type: 3}
@@ -1305,7 +1305,7 @@ PrefabInstance:
     - target: {fileID: 1858622095443381318, guid: 9fa3c901173628143886ec4f1c101538,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.037
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1858622095443381318, guid: 9fa3c901173628143886ec4f1c101538,
         type: 3}
@@ -1371,6 +1371,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayerID
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980186011239001760, guid: 9fa3c901173628143886ec4f1c101538,
+        type: 3}
+      propertyPath: InitialModule.rotation3D
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980186011239001760, guid: 9fa3c901173628143886ec4f1c101538,
+        type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980186011239001760, guid: 9fa3c901173628143886ec4f1c101538,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 16.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980186011239001760, guid: 9fa3c901173628143886ec4f1c101538,
+        type: 3}
+      propertyPath: EmissionModule.rateOverDistance.scalar
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fa3c901173628143886ec4f1c101538, type: 3}
@@ -1690,6 +1710,11 @@ PrefabInstance:
       propertyPath: _soundObject
       value: 
       objectReference: {fileID: 981229691}
+    - target: {fileID: 400800450995973356, guid: 820e8707e1a3b564a9a5495402c3f3aa,
+        type: 3}
+      propertyPath: _delayOnFinishInteraction
+      value: 5.5
+      objectReference: {fileID: 0}
     - target: {fileID: 400800450995973357, guid: 820e8707e1a3b564a9a5495402c3f3aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1954,6 +1979,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _taskIds.Array.data[0]
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680220688380452715, guid: 232115e7e0b1c264b8973522d956895f,
+        type: 3}
+      propertyPath: _delayOnFinishInteraction
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7680220688380452716, guid: 232115e7e0b1c264b8973522d956895f,
         type: 3}
