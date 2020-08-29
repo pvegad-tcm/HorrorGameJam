@@ -160,10 +160,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tooltipMessage: Open hatch
-  meshesToHighlight: []
+  meshesToHighlight:
+  - {fileID: 1320920602023962513}
   _taskListView: {fileID: 0}
   _soundObject: {fileID: 0}
-  _taskList: {fileID: 11400000, guid: a0deba4419460994a8f19589b106e203, type: 2}
+  _taskList: {fileID: 11400000, guid: 29d60b24fd4eda54192770d5cd9f11bd, type: 2}
   _taskIds: 
   _itemsToActivateAfterInteract: []
   _qteInstaller: {fileID: 0}
@@ -358,6 +359,12 @@ PrefabInstance:
 --- !u!4 &153112033510677758 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3754503178803367273, guid: cd0755b174ca6c34284268cf2138715e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3892616593269297559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1320920602023962513 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2617014021516801542, guid: cd0755b174ca6c34284268cf2138715e,
     type: 3}
   m_PrefabInstance: {fileID: 3892616593269297559}
   m_PrefabAsset: {fileID: 0}

@@ -6,7 +6,7 @@ namespace Menu
 {
     public class SceneChanger : MonoBehaviour
     {
-        [SerializeField] private SceneAsset _sceneToLoad;
+        [SerializeField] private Object _sceneToLoad;
 
         private void Start()
         {
