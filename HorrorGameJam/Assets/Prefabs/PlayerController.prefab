@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 5957044886648745642}
   - component: {fileID: 4642677590106753582}
   - component: {fileID: 8446987682961950947}
+  - component: {fileID: 6818543795727531570}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -242,7 +243,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8446987682961950949}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07db5cf035c12fc4ea2fb53cfaca9e0c, type: 3}
   m_Name: 
@@ -251,6 +252,23 @@ MonoBehaviour:
   x: 1
   y: 1
   z: 0
+--- !u!114 &6818543795727531570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8446987682961950949}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bdfd8e217b90a44aa2b5cedcc958d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotateInY: 0
+  _playerControllerMaster: {fileID: 8446987683089773691}
+  _cameraBreathing: {fileID: 8446987682961950947}
+  _target: {fileID: 0}
+  _speed: 1
 --- !u!1 &8446987683089773690
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,6 +283,7 @@ GameObject:
   - component: {fileID: 8446987683089773689}
   - component: {fileID: 8446987683089773686}
   - component: {fileID: 8446987683089773685}
+  - component: {fileID: 8603120433166038991}
   m_Layer: 0
   m_Name: PlayerController
   m_TagString: Untagged
@@ -521,6 +540,23 @@ MonoBehaviour:
   interactionInputData: {fileID: 11400000, guid: 53d9f3696d1130146ae3edd77cffcd05,
     type: 2}
   stepsObject: {fileID: 1423650712733727138}
+--- !u!114 &8603120433166038991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8446987683089773690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bdfd8e217b90a44aa2b5cedcc958d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotateInY: 1
+  _playerControllerMaster: {fileID: 8446987683089773691}
+  _cameraBreathing: {fileID: 8446987682961950947}
+  _target: {fileID: 0}
+  _speed: 1
 --- !u!1 &8446987684260431468
 GameObject:
   m_ObjectHideFlags: 0
