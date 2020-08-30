@@ -338,7 +338,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Bmt_Int_Computer
+    m_DisplayName: Bmt_Int_Computer_new
   m_Markers:
     m_Objects: []
 --- !u!114 &2458113127627357409
@@ -353,8 +353,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 987a467495df9d942b56b1b51381d095, type: 3}
   m_Name: FMODEventPlayable
   m_EditorClassIdentifier: 
-  eventLength: 0
-  eventName: event:/Basement/Bmt_Int_Computer
+  eventLength: Infinity
+  eventName: event:/Bmt_Int_Computer_new
   stopType: 0
   parameters: []
 --- !u!114 &4653636614679131948
