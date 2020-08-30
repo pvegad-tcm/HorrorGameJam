@@ -16,9 +16,13 @@ namespace Ladder
         private readonly Transform _cameraPivotTransform;
         private readonly Vector3 _playerOrientation;
         private readonly float _climbingSpeed;
+        private readonly Transform _ladderSound;
+        private readonly Transform _startLadderSound;
+        private readonly Transform _finishLadderSound;
+
         private Action _onFinishedClimbing;
 
-
+        
         public LadderMediator(PlayerControllerMaster playerControllerMaster,
             Transform playerTransform,
             Transform cameraHolderTransform,
@@ -28,7 +32,10 @@ namespace Ladder
             Transform startingPointTop,
             Transform startingPointBot, 
             float climbingSpeed,
-            Vector3 playerOrientation)
+            Vector3 playerOrientation,
+            Transform ladderSound,
+            Transform startLadderSound,
+            Transform finishLadderSound)
         {
             _playerControllerMaster = playerControllerMaster;
             _playerTransform = playerTransform;
@@ -40,6 +47,9 @@ namespace Ladder
             _climbingSpeed = climbingSpeed;
             _cameraPivotTransform = cameraPivotTransform;
             _playerOrientation = playerOrientation;
+            _ladderSound = ladderSound;
+            _startLadderSound = startLadderSound;
+            _finishLadderSound = finishLadderSound;
         }
 
         public void Climb(Action onFinishedClimbing)
@@ -68,6 +78,8 @@ namespace Ladder
 
         private IEnumerator StartMovement()
         {
+            _startLadderSound.gameObject.SetActive(true);
+            
             var distanceToTopOfLadder = Vector3.Distance(_finalDestinationTop.position, _playerTransform.position);
             var distanceToBottomOfLadder = Vector3.Distance(_finalDestinationBot.position, _playerTransform.position);
             SetCameraRotation();
@@ -79,17 +91,29 @@ namespace Ladder
                 
                 if (Input.GetKey(KeyCode.W))
                 {
+                    _ladderSound.gameObject.SetActive(true);
                     Ascend();
                 }
                 else if (Input.GetKey(KeyCode.S))
                 {
+                    _ladderSound.gameObject.SetActive(true);
                     Descend();
+                }
+                else
+                {
+                    _ladderSound.gameObject.SetActive(false);
                 }
                 yield return null;
             }
+            
+            _finishLadderSound.gameObject.SetActive(true);
+            yield return null;
 
             _playerControllerMaster.Enable();
             _onFinishedClimbing.Invoke();
+            _ladderSound.gameObject.SetActive(false);
+            _finishLadderSound.gameObject.SetActive(false);
+            _startLadderSound.gameObject.SetActive(false);
         }
 
         private void Descend()

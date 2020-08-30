@@ -1,12 +1,10 @@
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Ladder
 {
     public class LadderInstaller : MonoBehaviour
     {
-        [SerializeField] private float _climbingSpeed;
         [SerializeField] private PlayerControllerMaster _playerControllerMaster;
         [SerializeField] private Transform _playerTransform;
         [SerializeField] private Transform _cameraHolderTransform;
@@ -15,7 +13,11 @@ namespace Ladder
         [SerializeField] private Transform _finalDestinatioBot;
         [SerializeField] private Transform _startingPointTop;
         [SerializeField] private Transform _startingPointBottom;
+        [SerializeField] private Transform _ladderSound;
+        [SerializeField] private Transform _startLadderSound;
+        [SerializeField] private Transform _finishLadderSound;        
         [SerializeField] private Vector3 _playerOrientation;
+        [SerializeField] private float _climbingSpeed;
 
         private LadderMediator _ladderMediator;
 
@@ -31,7 +33,10 @@ namespace Ladder
                 _startingPointTop,
                 _startingPointBottom,
                 _climbingSpeed,
-                _playerOrientation);
+                _playerOrientation,
+                _ladderSound,
+                _startLadderSound,
+                _finishLadderSound);
         }
 
         public void StartClimbing(Action onFinishedClimbing)
