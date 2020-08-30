@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7bdef1ae794ade8dba93a0a7f8f454, type: 3}
   m_Name: QTE3C_TaskList
   m_EditorClassIdentifier: 
-  Title: NOTHXING'S WRXXONG
+  Title: STOP
   Tasks:
   - Stop moving the lightbubble
   - This is for your own good
