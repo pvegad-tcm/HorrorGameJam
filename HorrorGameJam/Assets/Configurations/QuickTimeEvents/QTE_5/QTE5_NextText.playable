@@ -105,7 +105,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Bmt_Int_Computer
+    m_DisplayName: Bmt_Int_Computer_new
   m_Markers:
     m_Objects: []
 --- !u!114 &11400000
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Name: FMODEventPlayable
   m_EditorClassIdentifier: 
   eventLength: Infinity
-  eventName: event:/Basement/Bmt_Int_Computer
+  eventName: event:/Bmt_Int_Computer_new
   stopType: 0
   parameters: []
 --- !u!114 &4653636614679131948
