@@ -24,7 +24,6 @@ public class Shake : MonoBehaviour
 
 	public void Begin(float intensity, float duration)
 	{
-		print("begin");
 		_intensity = intensity;
 		_duration = duration;
 		StopAllCoroutines();
