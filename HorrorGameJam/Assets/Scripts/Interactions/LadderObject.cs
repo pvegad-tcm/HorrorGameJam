@@ -1,3 +1,4 @@
+using System.Collections;
 using Ladder;
 using UnityEngine;
 using VHS;
@@ -11,9 +12,15 @@ namespace Interactions
         public override void OnInteract()
         {
             SetLayer((int)LayerValue.Default);
+            StartCoroutine(NextFrameInteraction());
+        }
+        
+        private IEnumerator NextFrameInteraction()
+        {
+            yield return null;
             _ladderInstaller.StartClimbing(OnFinishedClimbing);
         }
-
+        
         private void OnFinishedClimbing()
         {
             SetLayer((int)LayerValue.Interactable);
