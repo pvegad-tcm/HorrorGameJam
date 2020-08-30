@@ -19,8 +19,11 @@ namespace TaskLists
         {
             _list = list;
             HideList();
-            SendMessage("Play");
-            
+            if (gameObject.activeSelf)
+            {
+                SendMessage("Play");
+            }
+
             _titleList.text = list.Title;
             
             for (var i = 0; i < list.Tasks.Length; i++)
@@ -52,6 +55,13 @@ namespace TaskLists
             foreach (var id in taskId)
             {
                 _taskViews[id].Check();
+            }
+        }
+        public void CheckAllTasks()
+        {
+            for (int i = 0; i < _taskViews.Count; i++)
+            {
+                _taskViews[i].Check();
             }
         }
 

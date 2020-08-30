@@ -39,6 +39,14 @@ public class PlayerControllerMaster : MonoBehaviour
         _disabled = true;
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
+
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
         if (!hit.gameObject.CompareTag(_pushableTag)) return;

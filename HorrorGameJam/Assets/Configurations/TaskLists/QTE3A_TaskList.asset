@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7bdef1ae794ade8dba93a0a7f8f454, type: 3}
   m_Name: QTE3A_TaskList
   m_EditorClassIdentifier: 
-  Title: "Don\u2019t touch anything"
+  Title: RESTRAIN YOURSELF NOW
   Tasks:
-  - Go to sleep
-  - "You\u2019ll fix it tomorrow"
-  - This is for your own good
+  - KEEP CALM
+  - STAY STILL
