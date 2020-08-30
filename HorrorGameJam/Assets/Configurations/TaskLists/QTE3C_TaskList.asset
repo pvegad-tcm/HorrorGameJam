@@ -14,6 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: NOTHXING'S WRXXONG
   Tasks:
-  - 'CALM DOWN STOP  '
-  - 'CALMDOWNCALMDOWNCALMDOWN  '
-  - "STOPTHIS DON\u2019T STOPNOW"
+  - Stop moving the lightbubble
+  - This is for your own good

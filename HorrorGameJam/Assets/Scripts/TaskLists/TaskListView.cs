@@ -57,6 +57,13 @@ namespace TaskLists
                 _taskViews[id].Check();
             }
         }
+        public void CheckAllTasks()
+        {
+            for (int i = 0; i < _taskViews.Count; i++)
+            {
+                _taskViews[i].Check();
+            }
+        }
 
         public void HideList()
         {

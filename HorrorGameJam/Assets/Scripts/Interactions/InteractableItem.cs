@@ -29,5 +29,12 @@ namespace Interactions
             _itemsToActivateAfterInteract.ForEach(item => item.SetLayer((int)LayerValue.Interactable));
             _soundObject?.SetActive(false);
         }
+
+
+        public void CheckAllTasks()
+        {
+            Debug.Log("clear all");
+            _taskListView.CheckAllTasks();
+        }
     }
 }
