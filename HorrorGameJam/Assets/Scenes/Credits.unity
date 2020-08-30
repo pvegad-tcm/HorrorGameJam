@@ -899,9 +899,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Victor L\xF3pez - Artist\n\n\n\nNat\xE0lia Puig - Artist\n\n\n\nAlan Elwood
-    - Designer\n\n\n\nJoan Cuch - Designer\n\n\n\nRicard Cabezas - Programmer\n\n\n\nPol
-    Vega - Programmer\n\n\n\nOleg Tyutyunnukow - Sound Designer"
+  m_text: "Victor L\xF3pez - Artist\n\n\n\nNat\xE0lia Puig - Artist\n\n\n\nJoan Cuch
+    - Designer\n\n\n\nAlan Elwood - Designer\n\n\n\nRicard Cabezas - Programmer\n\n\n\nPol
+    Vega - Programmer\n\n\n\nOleg Tyutyunnukov - Sound Designer"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
