@@ -6,21 +6,23 @@ public class SmoothCameraLookAt : MonoBehaviour
     [SerializeField] private bool _rotateInY;
     [SerializeField] private PlayerControllerMaster _playerControllerMaster;
     [SerializeField] private CameraBreathing _cameraBreathing;
-    
-    [Space, SerializeField] private Transform _target;
+    [SerializeField] private GameObject _stepsGameObject;
+    [SerializeField] private float endTimer;
+
+
+   [Space, SerializeField] private Transform _target;
     [SerializeField, Range(0, 2)] private float _speed = 1;
 
     private void OnEnable()
     {
         _playerControllerMaster.Disable();
         _cameraBreathing.enabled = false;
+        _stepsGameObject.SetActive(false);
+
+        //Invoke("DetachCamera", endTimer); ARREGLAR PARA QUE LA CAMARA HIJA COJA LA ROTACIÓN DE LA CAMARA AL ACABAR EL LOOKAT
+
     }
     
-    private void OnDisable()
-    {
-        _cameraBreathing.enabled = true;
-        _playerControllerMaster.Enable();
-    }
 
     private void Update()
     {
@@ -41,5 +43,16 @@ public class SmoothCameraLookAt : MonoBehaviour
             transform.rotation = Quaternion.Lerp(transform.rotation, newRotation, _speed * Time.deltaTime);
 
         }
+    }
+
+    private void DetachCamera()
+    {
+        Transform child = transform.GetChild(0);
+        child.GetComponent<Camera>().enabled = true;
+        //child.gameObject.SetActive(true);
+        child.parent = transform.parent;
+        child.rotation = transform.rotation;
+   
+        gameObject.SetActive(false);
     }
 }
