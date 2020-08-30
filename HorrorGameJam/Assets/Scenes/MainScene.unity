@@ -16028,7 +16028,7 @@ PrefabInstance:
     - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
         type: 3}
       propertyPath: m_SceneBindings.Array.size
-      value: 163
+      value: 165
       objectReference: {fileID: 0}
     - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
         type: 3}
@@ -16261,7 +16261,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PlayableAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 6078da00370bec94baacf9dc334ad56f,
+      objectReference: {fileID: 11400000, guid: ad9e9f225fe83094ea591c5f445e0a47,
         type: 2}
     - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
         type: 3}
@@ -17128,6 +17128,23 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[162].value
       value: 
       objectReference: {fileID: 1875975935}
+    - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[163].key
+      value: 
+      objectReference: {fileID: 2774773343138554523, guid: ad9e9f225fe83094ea591c5f445e0a47,
+        type: 2}
+    - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[164].key
+      value: 
+      objectReference: {fileID: 335873772069491636, guid: ad9e9f225fe83094ea591c5f445e0a47,
+        type: 2}
+    - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[164].value
+      value: 
+      objectReference: {fileID: 1807868983}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1c2bc65b84272f49a40a91e8235862d, type: 3}
 --- !u!1 &1686524750
@@ -18869,6 +18886,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1801477845}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1807868983 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8928623601679197519, guid: 38d70185c5ed05742ae02852140f3eb8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1844278206}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1826071011 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 703b04fab47b6c449afde4884f6651f9,
@@ -19012,6 +19035,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ladder
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928623601679197519, guid: 38d70185c5ed05742ae02852140f3eb8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38d70185c5ed05742ae02852140f3eb8, type: 3}
