@@ -7,10 +7,10 @@ public class SmoothCameraLookAt : MonoBehaviour
     [SerializeField] private PlayerControllerMaster _playerControllerMaster;
     [SerializeField] private CameraBreathing _cameraBreathing;
     [SerializeField] private GameObject _stepsGameObject;
-    [SerializeField] private float endTimer;
+    [SerializeField] private float _endTimer = 1.5f;
 
 
-   [Space, SerializeField] private Transform _target;
+    [Space, SerializeField] private Transform _target;
     [SerializeField, Range(0, 2)] private float _speed = 1;
 
     private void OnEnable()
@@ -19,14 +19,12 @@ public class SmoothCameraLookAt : MonoBehaviour
         _cameraBreathing.enabled = false;
         _stepsGameObject.SetActive(false);
 
-        Invoke("DetachCamera", endTimer);
-
+        Invoke(nameof(DetachCamera), _endTimer);
     }
     
 
     private void Update()
     {
-
         if (_rotateInY)
         {
             var targetDir = _target.position - transform.position;
@@ -47,12 +45,8 @@ public class SmoothCameraLookAt : MonoBehaviour
 
     private void DetachCamera()
     {
-        Transform child = transform.GetChild(0);
-        child.GetComponent<Camera>().enabled = true;
-        //child.gameObject.SetActive(true);
-        child.parent = transform.parent;
-        child.rotation = transform.rotation;
-   
-        gameObject.SetActive(false);
+        GetComponent<Camera>().enabled = false;
+        transform.GetChild(0).GetComponent<Camera>().enabled = true;
+        this.enabled = false;
     }
 }
