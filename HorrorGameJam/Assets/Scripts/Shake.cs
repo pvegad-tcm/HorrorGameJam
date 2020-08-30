@@ -2,7 +2,7 @@
 using System.Collections;
 
 [RequireComponent (typeof(Rigidbody))]
-[RequireComponent (typeof(BoxCollider))]
+[RequireComponent (typeof(Collider))]
 public class Shake : MonoBehaviour
 {
 	[Header("Info")]
