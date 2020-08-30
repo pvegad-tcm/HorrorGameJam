@@ -19,7 +19,7 @@ public class SmoothCameraLookAt : MonoBehaviour
         _cameraBreathing.enabled = false;
         _stepsGameObject.SetActive(false);
 
-        //Invoke("DetachCamera", endTimer); ARREGLAR PARA QUE LA CAMARA HIJA COJA LA ROTACIÓN DE LA CAMARA AL ACABAR EL LOOKAT
+        Invoke("DetachCamera", endTimer);
 
     }
     
