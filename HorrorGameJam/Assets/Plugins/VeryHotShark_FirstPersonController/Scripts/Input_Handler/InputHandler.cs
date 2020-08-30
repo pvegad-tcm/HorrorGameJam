@@ -5,7 +5,7 @@ namespace VHS
 {    
     public class InputHandler : MonoBehaviour
     {
-        public bool JumpAllowed;
+        public bool JumpAllowedAndRun;
         
         [Space,Header("Input Data")]
         [SerializeField] private CameraInputData cameraInputData = null;
@@ -50,8 +50,11 @@ namespace VHS
             movementInputData.InputVectorX = Input.GetAxisRaw("Horizontal");
             movementInputData.InputVectorY = Input.GetAxisRaw("Vertical");
 
-            movementInputData.RunClicked = Input.GetKeyDown(KeyCode.LeftShift);
-            movementInputData.RunReleased = Input.GetKeyUp(KeyCode.LeftShift);
+            if (JumpAllowedAndRun)
+            {
+                movementInputData.RunClicked = Input.GetKeyDown(KeyCode.LeftShift);
+                movementInputData.RunReleased = Input.GetKeyUp(KeyCode.LeftShift);
+            }
 
             if(movementInputData.RunClicked)
                 movementInputData.IsRunning = true;
@@ -59,7 +62,7 @@ namespace VHS
             if(movementInputData.RunReleased)
                 movementInputData.IsRunning = false;
 
-            if (JumpAllowed)
+            if (JumpAllowedAndRun)
             {
                 movementInputData.JumpClicked = Input.GetKeyDown(KeyCode.Space);
             }
