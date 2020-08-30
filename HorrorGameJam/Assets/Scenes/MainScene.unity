@@ -11033,6 +11033,16 @@ PrefabInstance:
       propertyPath: _qteInstaller
       value: 
       objectReference: {fileID: 389805338}
+    - target: {fileID: 5244122960160789810, guid: 37d58f2990d9e6240a6465805e4e5bf9,
+        type: 3}
+      propertyPath: m_Name
+      value: QTE5_PostPoChangeWorldColor
+      objectReference: {fileID: 0}
+    - target: {fileID: 5244122960160789814, guid: 37d58f2990d9e6240a6465805e4e5bf9,
+        type: 3}
+      propertyPath: _secondsWaitingInNewColor
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37d58f2990d9e6240a6465805e4e5bf9, type: 3}
 --- !u!1 &1183031751 stripped
@@ -16516,7 +16526,7 @@ PrefabInstance:
     - target: {fileID: 7656279246190340936, guid: a1c2bc65b84272f49a40a91e8235862d,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7950331674894371310, guid: a1c2bc65b84272f49a40a91e8235862d,
         type: 3}
@@ -16814,12 +16824,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PlayableAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 8d97ed020cd19584e874351688ff5b1d,
+      objectReference: {fileID: 11400000, guid: 6078da00370bec94baacf9dc334ad56f,
         type: 2}
     - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
         type: 3}
       propertyPath: m_InitialState
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
         type: 3}
