@@ -11,6 +11,10 @@ public class PlayerControllerMaster : MonoBehaviour
     [Space, SerializeField] private string _pushableTag = "Pushable";
     [SerializeField, Range(0, 250)] private float _force = 100;
     
+    [Space, SerializeField] private StepObject _stepObject;
+    [SerializeField] private string _normalStepsTriggerTag = "NormalStepsTrigger";
+    [SerializeField] private string _basementStepsTriggerTag = "BasementStepsTrigger";
+    
     private bool _disabled = false;
 
     public bool Disabled => _disabled;
@@ -49,6 +53,16 @@ public class PlayerControllerMaster : MonoBehaviour
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
+        if (hit.gameObject.CompareTag(_normalStepsTriggerTag))
+        {
+            _stepObject.SetNormalSteps();
+        }
+        
+        if (hit.gameObject.CompareTag(_basementStepsTriggerTag))
+        {
+            _stepObject.SetBasementSteps();
+        }
+        
         if (!hit.gameObject.CompareTag(_pushableTag)) return;
 
         var dir = hit.point - transform.position;
