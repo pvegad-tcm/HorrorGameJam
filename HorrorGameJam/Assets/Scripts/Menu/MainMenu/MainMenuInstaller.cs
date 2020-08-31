@@ -11,5 +11,13 @@ namespace Menu
         {
             var mediator = new MainMenuMediator(_mainMenuView, _sceneChanger);
         }
+
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Application.Quit();
+            }
+        }
     }
 }
