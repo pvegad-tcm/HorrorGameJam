@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="" />
+    <option name="COMMIT_PATTERN" value="{message}" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="ENABLE_SUITABLE_CONFIGURATION_CACHING" value="true" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7fe14d3-b633-42f9-8dad-28bc8c41b03b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-BeamStructure.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-BeamStructure.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-BigBeam002.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-BigBeam002.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-BigBeam1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-BigBeam1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Bigbeam005.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Bigbeam005.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Bigbeam4.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Bigbeam4.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box001.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box001.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box002.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box002.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box003.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box003.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box004.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box004.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box005.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box005.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box006.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box006.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box007.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box007.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box008.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box008.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box009.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box009.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box010.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box010.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box011.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box011.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box012.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box012.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box013.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box013.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box014.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box014.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box015.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box015.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box016.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box016.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box017.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box017.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box018.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box018.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box019.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box019.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box020.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box020.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box026.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box026.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box029.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box029.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box030.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box030.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box032.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box032.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box033.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box033.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box034.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box034.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box035.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box035.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box036.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box036.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box037.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box037.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box044.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box044.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box045.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box045.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box046.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box046.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box047.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box047.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box048.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box048.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box049.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box049.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box050.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box050.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box051.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box051.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box052.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box052.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box053.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box053.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box054.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box054.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box055.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box055.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box056.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box056.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box059.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box059.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box061.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box061.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box062.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Box062.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Ceiling.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Ceiling.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Chair.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Chair.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Chair001.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Chair001.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Chair002.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Chair002.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Chair003.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Chair003.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-ChamferBox001.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-ChamferBox001.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-ChimneyBase.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-ChimneyBase.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Cylinder005.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Cylinder005.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-DoorBase.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-DoorBase.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-DoorMain001.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-DoorMain001.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-DoorSide.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-DoorSide.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-DoorTopFrame.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-DoorTopFrame.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Object001.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Object001.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Object002.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Object002.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Object003.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Object003.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Object004.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Object004.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Object005.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Object005.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Object006.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Object006.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Object007.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Object007.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Shelf.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Shelf.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Shelfs.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Shelfs.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Sphere001.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Sphere001.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Taburete.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Taburete.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Vela_low.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-Vela_low.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-WoodenBox.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-WoodenBox.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-arch1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-arch1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-arch2.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-arch2.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-baul_low.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-baul_low.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-baul_low001.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-baul_low001.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-cama005.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-cama005.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-cubo.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-cubo.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-doorframe.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-doorframe.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-doorleft.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-doorleft.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-doorright.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-doorright.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-ladder.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-ladder.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-tunel1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-tunel1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-tunel2.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-tunel2.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-tunel3.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces/scene_-tunel3.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/test.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/test.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/testbasement.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/testbasement.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/testscene.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Blockout/testscene.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/AddIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/AddIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/ArrowDown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/ArrowDown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/ArrowIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/ArrowIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/ArrowUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/ArrowUp.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/BankIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/BankIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/Border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/Border.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/BrowserIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/BrowserIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/CopyIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/CopyIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/Delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/Delete.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/EventIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/EventIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/FolderIconClosed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/FolderIconClosed.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/FolderIconOpen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/FolderIconOpen.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/LevelMeter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/LevelMeter.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/LevelMeterOff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/LevelMeterOff.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/NotFound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/NotFound.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/SearchIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/SearchIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/SearchIconBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/SearchIconBlack.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/Selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/Selected.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/SelectedAlt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/SelectedAlt.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/SnapshotIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/SnapshotIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/StudioIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/StudioIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportOpen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportOpen.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportPlayButtonOff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportPlayButtonOff.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportPlayButtonOn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportPlayButtonOn.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportStopButtonOff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportStopButtonOff.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportStopButtonOn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportStopButtonOn.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/preview.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/previewemitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/previewemitter.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gizmos.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gizmos/FMOD.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gizmos/FMOD/FMODEmitter.tiff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gizmos/FMOD/FMODEmitter.tiff.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/AssetStoreOriginals.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/AssetStoreOriginals/_SNAPS_PrototypingAssets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/AssetStoreOriginals/_SNAPS_PrototypingAssets/About.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/LICENSE.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/LICENSE.TXT.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FmodResonanceAudioRoomEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FmodResonanceAudioRoomEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/arm64-v8a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/arm64-v8a/libfmod.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/arm64-v8a/libfmod.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/arm64-v8a/libfmodL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/arm64-v8a/libfmodL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/arm64-v8a/libfmodstudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/arm64-v8a/libfmodstudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/arm64-v8a/libfmodstudioL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/arm64-v8a/libfmodstudioL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/arm64-v8a/libresonanceaudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/arm64-v8a/libresonanceaudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/armeabi-v7a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/armeabi-v7a/libfmod.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/armeabi-v7a/libfmod.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/armeabi-v7a/libfmodL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/armeabi-v7a/libfmodL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/armeabi-v7a/libfmodstudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/armeabi-v7a/libfmodstudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/armeabi-v7a/libfmodstudioL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/armeabi-v7a/libfmodstudioL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/armeabi-v7a/libresonanceaudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/armeabi-v7a/libresonanceaudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/fmod.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/fmod.jar.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/x86.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/x86/libfmod.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/x86/libfmod.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/x86/libfmodL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/x86/libfmodL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/x86/libfmodstudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/x86/libfmodstudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/x86/libfmodstudioL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/x86/libfmodstudioL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/x86/libresonanceaudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/android/x86/libresonanceaudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/html5.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/html5/libfmodstudiounityplugin.bc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/html5/libfmodstudiounityplugin.bc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/html5/libfmodstudiounitypluginL.bc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/html5/libfmodstudiounitypluginL.bc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/ios.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/ios/libfmodstudiounityplugin.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/ios/libfmodstudiounityplugin.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/ios/libfmodstudiounitypluginL.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/ios/libfmodstudiounitypluginL.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/ios/libresonanceaudio.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/ios/libresonanceaudio.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/linux.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/linux/x86.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/linux/x86/libfmodstudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/linux/x86/libfmodstudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/linux/x86/libfmodstudioL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/linux/x86/libfmodstudioL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/linux/x86_64.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/linux/x86_64/libfmodstudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/linux/x86_64/libfmodstudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/linux/x86_64/libfmodstudioL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/linux/x86_64/libfmodstudioL.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/linux/x86_64/libresonanceaudio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/linux/x86_64/libresonanceaudio.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudio.bundle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudio.bundle/Contents.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudio.bundle/Contents/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudio.bundle/Contents/Info.plist.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudio.bundle/Contents/MacOS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudio.bundle/Contents/MacOS/fmodstudio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudio.bundle/Contents/MacOS/fmodstudio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudio.bundle/Contents/_CodeSignature.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudio.bundle/Contents/_CodeSignature/CodeResources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudio.bundle/Contents/_CodeSignature/CodeResources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudioL.bundle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents/Info.plist.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents/MacOS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents/MacOS/fmodstudioL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents/_CodeSignature.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents/_CodeSignature/CodeResources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents/_CodeSignature/CodeResources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/resonanceaudio.bundle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/resonanceaudio.bundle/Contents.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/resonanceaudio.bundle/Contents/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/resonanceaudio.bundle/Contents/Info.plist.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/resonanceaudio.bundle/Contents/MacOS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/resonanceaudio.bundle/Contents/MacOS/resonanceaudio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/resonanceaudio.bundle/Contents/MacOS/resonanceaudio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/resonanceaudio.bundle/Contents/_CodeSignature.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/resonanceaudio.bundle/Contents/_CodeSignature/CodeResources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/mac/resonanceaudio.bundle/Contents/_CodeSignature/CodeResources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/tvos.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/tvos/libfmodstudiounityplugin.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/tvos/libfmodstudiounityplugin.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/tvos/libfmodstudiounitypluginL.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/tvos/libfmodstudiounitypluginL.a.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/arm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/arm/fmod.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/arm/fmod.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/arm/fmodL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/arm/fmodL.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/arm/fmodstudio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/arm/fmodstudio.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/arm/fmodstudioL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/arm/fmodstudioL.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x64.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x64/fmod.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x64/fmod.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x64/fmodL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x64/fmodL.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x64/fmodstudio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x64/fmodstudio.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x64/fmodstudioL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x64/fmodstudioL.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x86.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x86/fmod.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x86/fmod.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x86/fmodL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x86/fmodL.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x86/fmodstudio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x86/fmodstudio.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x86/fmodstudioL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/uwp/x86/fmodstudioL.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/win.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/win/x86.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/win/x86/fmodstudio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/win/x86/fmodstudio.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/win/x86/fmodstudiol.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/win/x86/fmodstudiol.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/win/x86/resonanceaudio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/win/x86/resonanceaudio.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/win/x86_64.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/win/x86_64/fmodstudio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/win/x86_64/fmodstudio.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/win/x86_64/fmodstudiol.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/win/x86_64/fmodstudiol.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/win/x86_64/resonanceaudio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/lib/win/x86_64/resonanceaudio.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platform_ios.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platform_ios.mm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/BankRefDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/BankRefDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorBankRef.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorBankRef.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventCache.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventCache.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/LogViewer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/LogViewer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/ParamRefDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/ParamRefDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioBankLoaderEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioBankLoaderEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterGizmoDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterGizmoDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioGlobalParameterTriggerEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioGlobalParameterTriggerEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioListenerEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioListenerEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/Timeline.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/Timeline/FMODEventPlayableEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/Timeline/FMODEventPlayableEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/BankRefAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/BankRefAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/EventHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/EventHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/EventRefAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/EventRefAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/FMODRuntimeManagerOnGUIHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/FMODRuntimeManagerOnGUIHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/ParamRef.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/ParamRef.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/ParamRefAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/ParamRefAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/RuntimeManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/RuntimeManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/RuntimeUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/RuntimeUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/Settings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/Settings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioBankLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioBankLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioEventEmitter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioEventEmitter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioGlobalParameterTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioGlobalParameterTrigger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioListener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioListener.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioParameterTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioParameterTrigger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/Timeline.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/Timeline/FMODEventPlayable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/Timeline/FMODEventPlayable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/Timeline/FMODEventTrack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/Timeline/FMODEventTrack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/fmodplugins.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/fmodplugins.cpp.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/wrapper.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/wrapper/fmod.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/wrapper/fmod.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/wrapper/fmod_android.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/wrapper/fmod_android.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/wrapper/fmod_dsp.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/wrapper/fmod_dsp.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/wrapper/fmod_errors.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/wrapper/fmod_errors.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/wrapper/fmod_studio.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/wrapper/fmod_studio.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/ArtTestscene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/ArtTestscene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/ArtTestscene/LightingData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/ArtTestscene/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/ArtTestscene/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/samplescene 1.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Blockout.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Blockout.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Blockout/Separate pieces.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/HDRP/Settings/SampleScenePostProcessingSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/HDRP/Settings/SampleScenePostProcessingSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/samplescene 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/samplescene 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/samplescene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/samplescene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/ArtTestscene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/samplescene/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/samplescene/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/ArtTestscene/LightingData.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/samplescene/Lightmap-0_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/samplescene/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/ArtTestscene/Lightmap-0_comp_dir.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/samplescene/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/samplescene/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ExampleScene/ArtTestscene/Lightmap-0_comp_light.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/QuickTimeEvents/QTEInstaller.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <marker date="1598133194269" expanded="true" signature="61:767" ph="{...}" />
+                <marker date="1598133194269" expanded="true" signature="248:764" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/QuickTimeEvents/QTEMediator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="113" column="11" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
+              <folding>
+                <marker date="1598133194280" expanded="false" signature="6:73" ph="..." />
+                <marker date="1598133194280" expanded="true" signature="99:4636" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="797:1216" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="1246:1323" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="1361:1791" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="1402:1785" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="1453:1516" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="1567:1635" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="1676:1743" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="1831:2209" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="1922:2203" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="2012:2092" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="2109:2193" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="2266:2568" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="2368:2500" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="2513:2562" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="2621:2808" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="2744:2802" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="2851:3064" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="3109:3201" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="3244:3620" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="3329:3614" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="3686:3793" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="3823:3953" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="3994:4106" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="4145:4259" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="4293:4367" ph="{...}" />
+                <marker date="1598133194280" expanded="true" signature="4402:4634" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/QuickTimeEvents/QTEModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding>
+                <marker date="1598133194291" expanded="true" signature="21:467" ph="{...}" />
+                <marker date="1598133194291" expanded="true" signature="172:273" ph="{...}" />
+                <marker date="1598133194291" expanded="true" signature="325:385" ph="{...}" />
+                <marker date="1598133194291" expanded="true" signature="426:465" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/QuickTimeEvents/OnQTEStepCompleted.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <folding>
+                <marker date="1598133194252" expanded="true" signature="51:254" ph="{...}" />
+                <marker date="1598133194252" expanded="true" signature="138:174" ph="{...}" />
+                <marker date="1598133194252" expanded="true" signature="200:252" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/QuickTimeEvents/QTEStepCompletedChecker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding>
+                <marker date="1598133194314" expanded="true" signature="40:85" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/QuickTimeEvents/QTESinglePressChecker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1598133194302" expanded="true" signature="60:144" ph="{...}" />
+                <marker date="1598133194302" expanded="true" signature="109:142" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/QuickTimeEvents/QTEHoldPressChecker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+              <folding>
+                <marker date="1598133194259" expanded="true" signature="58:445" ph="{...}" />
+                <marker date="1598133194259" expanded="true" signature="186:234" ph="{...}" />
+                <marker date="1598133194259" expanded="true" signature="281:443" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/CustomPasses/Selection/Scripts/SelectionColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CustomPasses/Blur/SlightBlur.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactions/InteractableItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuickTimeEvents/QTEHoldPressChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuickTimeEvents/QTEModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/VeryHotShark_FirstPersonController/Scripts/Interaction_System/InteractableBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuickTimeEvents/QTEInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuickTimeEvents/QTEMediator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/VeryHotShark_FirstPersonController/Scripts/Interaction_System/InteractionController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuickTimeEvents/OnQTEStepCompleted.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuickTimeEvents/QTEStepCompletedChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuickTimeEvents/QTESinglePressChecker.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/CustomPasses/Selection/Scripts/SelectionColor.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1273" />
+    <option name="width" value="1294" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectId" id="1gELhaylUMURz6ZtsKOMQ1ZK89R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="QuickTimeEvents" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7fe14d3-b633-42f9-8dad-28bc8c41b03b" name="Default Changelist" comment="" />
+      <created>1597674951969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597674951969</updated>
+      <workItem from="1597674971867" duration="599000" />
+      <workItem from="1598107258239" duration="261000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="261000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25198728" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/CustomPasses/Selection/Scripts/SelectionColor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1594984136000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1594984136000" expanded="true" signature="160:682" ph="{...}" />
+            <marker date="1594984136000" expanded="true" signature="296:328" ph="{...}" />
+            <marker date="1594984136000" expanded="true" signature="351:383" ph="{...}" />
+            <marker date="1594984136000" expanded="true" signature="404:680" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Interactions/InteractableItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <marker date="1598092869492" expanded="false" signature="6:29" ph="..." />
+            <marker date="1598092869492" expanded="true" signature="53:400" ph="{...}" />
+            <marker date="1598092869492" expanded="true" signature="108:398" ph="{...}" />
+            <marker date="1598092869492" expanded="true" signature="285:392" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/VeryHotShark_FirstPersonController/Scripts/Interaction_System/InteractableBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1598092869451" expanded="true" signature="33:375" ph="{...}" />
+            <marker date="1598092869451" expanded="true" signature="85:373" ph="{...}" />
+            <marker date="1598092869451" expanded="true" signature="258:367" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

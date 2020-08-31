@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{0ca05262-9cb5-434b-9358-745585f8fe92}">
+		<property name="assetPath">
+			<value>Player/bucket_falls - Trimmed.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.5340362811791382</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{732e157a-11f4-43ac-877e-e7fc16f42b28}</destination>
+		</relationship>
+	</object>
+</objects>
