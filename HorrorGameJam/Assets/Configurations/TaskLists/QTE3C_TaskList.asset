@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: STOP
   Tasks:
-  - Stop moving the lightbubble
+  - Stop touching the lightbulb
   - This is for your own good
