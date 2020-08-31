@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: Cook breakfast
   Tasks:
-  - Light fire with the matches
-  - Stir the cauldron
+  - Light fire matches
+  - Stir cauldron

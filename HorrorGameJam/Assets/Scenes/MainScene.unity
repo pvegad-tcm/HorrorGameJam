@@ -2234,6 +2234,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e18665dc1cd1ff47a287fa89f60a246,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e18665dc1cd1ff47a287fa89f60a246, type: 3}
 --- !u!4 &246157753 stripped
@@ -5398,7 +5403,7 @@ PrefabInstance:
     - target: {fileID: 2652964403034695851, guid: f13ef4313620c6f49acb95f939de98b4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.644
+      value: 0.642
       objectReference: {fileID: 0}
     - target: {fileID: 2652964403034695851, guid: f13ef4313620c6f49acb95f939de98b4,
         type: 3}
@@ -16268,6 +16273,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a2d0f2a86f6455e4b91629ee356b9be9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2d0f2a86f6455e4b91629ee356b9be9, type: 3}
 --- !u!4 &1212623785 stripped
@@ -17310,6 +17320,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2127392653}
     m_Modifications:
     - target: {fileID: 138241441, guid: 15a4d5758a10d8d4dba90b67c9be200f, type: 3}
+      propertyPath: shakeList.Array.size
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 138241441, guid: 15a4d5758a10d8d4dba90b67c9be200f, type: 3}
       propertyPath: shakeList.Array.data[0]
       value: 
       objectReference: {fileID: 1706289952}
@@ -17376,7 +17390,7 @@ PrefabInstance:
     - target: {fileID: 138241441, guid: 15a4d5758a10d8d4dba90b67c9be200f, type: 3}
       propertyPath: shakeList.Array.data[16]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5916171111482486511}
     - target: {fileID: 138241441, guid: 15a4d5758a10d8d4dba90b67c9be200f, type: 3}
       propertyPath: shakeList.Array.data[17]
       value: 
@@ -17425,6 +17439,10 @@ PrefabInstance:
       propertyPath: shakeList.Array.data[28]
       value: 
       objectReference: {fileID: 2115050324}
+    - target: {fileID: 138241441, guid: 15a4d5758a10d8d4dba90b67c9be200f, type: 3}
+      propertyPath: shakeList.Array.data[29]
+      value: 
+      objectReference: {fileID: 6835091590514218646}
     - target: {fileID: 300362786726249594, guid: 15a4d5758a10d8d4dba90b67c9be200f,
         type: 3}
       propertyPath: _finalColor.rgba
@@ -19323,7 +19341,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: de7fb87ee3c72c0428e2ca68f663e554,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.016
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de7fb87ee3c72c0428e2ca68f663e554,
         type: 3}
@@ -21555,7 +21573,7 @@ PrefabInstance:
     - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
         type: 3}
       propertyPath: m_SceneBindings.Array.size
-      value: 225
+      value: 231
       objectReference: {fileID: 0}
     - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
         type: 3}
@@ -21788,12 +21806,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PlayableAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 8d97ed020cd19584e874351688ff5b1d,
+      objectReference: {fileID: 11400000, guid: 6078da00370bec94baacf9dc334ad56f,
         type: 2}
     - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
         type: 3}
       propertyPath: m_InitialState
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
         type: 3}
@@ -23406,7 +23424,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SceneBindings.Array.data[212].value
       value: 
-      objectReference: {fileID: 8252544562944511202}
+      objectReference: {fileID: 8252544561927793227}
     - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
         type: 3}
       propertyPath: m_SceneBindings.Array.data[213].value
@@ -23457,6 +23475,72 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[221].value
       value: 
       objectReference: {fileID: 6819662478897011454}
+    - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[225].key
+      value: 
+      objectReference: {fileID: -2252865750105490798, guid: fa56ef1b7a2e6764e9cc977e5eed6001,
+        type: 2}
+    - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[225].value
+      value: 
+      objectReference: {fileID: 5916171110233898780}
+    - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[226].key
+      value: 
+      objectReference: {fileID: 5754959572845768778, guid: 8d97ed020cd19584e874351688ff5b1d,
+        type: 2}
+    - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[226].value
+      value: 
+      objectReference: {fileID: 5916171110233898780}
+    - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[227].key
+      value: 
+      objectReference: {fileID: 7299857065960854995, guid: 8d97ed020cd19584e874351688ff5b1d,
+        type: 2}
+    - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[227].value
+      value: 
+      objectReference: {fileID: 8252544563213036966}
+    - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[228].key
+      value: 
+      objectReference: {fileID: -8757445250686915919, guid: 8d97ed020cd19584e874351688ff5b1d,
+        type: 2}
+    - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[228].value
+      value: 
+      objectReference: {fileID: 729849109}
+    - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[229].key
+      value: 
+      objectReference: {fileID: 6672512762723454863, guid: 8d97ed020cd19584e874351688ff5b1d,
+        type: 2}
+    - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[229].value
+      value: 
+      objectReference: {fileID: 762698556}
+    - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[230].key
+      value: 
+      objectReference: {fileID: 5447335519875528575, guid: 8d97ed020cd19584e874351688ff5b1d,
+        type: 2}
+    - target: {fileID: 7950331676216120876, guid: a1c2bc65b84272f49a40a91e8235862d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[230].value
+      value: 
+      objectReference: {fileID: 178282937}
     - target: {fileID: 8114096015723246294, guid: a1c2bc65b84272f49a40a91e8235862d,
         type: 3}
       propertyPath: _target
@@ -27808,7 +27892,7 @@ MonoBehaviour:
   - {fileID: 1891849320}
   - {fileID: 1784497833}
   - {fileID: 998270953}
-  - {fileID: 0}
+  - {fileID: 5916171111482486511}
   - {fileID: 1057621476}
   - {fileID: 2100636124}
   - {fileID: 1093266031}
@@ -27824,6 +27908,14 @@ MonoBehaviour:
   - {fileID: 425067943}
   - {fileID: 855808125}
   - {fileID: 1643431137}
+  - {fileID: 6835091590514218646}
+  - {fileID: 5946463785258906267}
+  - {fileID: 7792429252313796717}
+  - {fileID: 2447772850767665352}
+  - {fileID: 7537114391052917770}
+  - {fileID: 9179357242067276128}
+  - {fileID: 9111820640078661268}
+  - {fileID: 5916171111595854328}
   intensity: 45
   duration: 30
 --- !u!1 &2085177210 stripped
@@ -58747,6 +58839,7 @@ GameObject:
   - component: {fileID: 7492750977020355920}
   - component: {fileID: 5916171110564945684}
   - component: {fileID: 5916171110564945683}
+  - component: {fileID: 2447772850767665352}
   m_Layer: 0
   m_Name: Carpeta Lefort002
   m_TagString: Untagged
@@ -58754,6 +58847,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2447772850767665352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2447772850767665351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e065035b2f542794481dfd72fb70b3a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _duration: 1
+  _intensity: 8
 --- !u!193 &2458867416396773314
 Tree:
   m_ObjectHideFlags: 0
@@ -67229,6 +67336,7 @@ GameObject:
   - component: {fileID: 5916171111595854324}
   - component: {fileID: 5916171111595854327}
   - component: {fileID: 5916171111595854326}
+  - component: {fileID: 5916171111595854328}
   m_Layer: 0
   m_Name: cardbox_A001 (1)
   m_TagString: Untagged
@@ -67327,6 +67435,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5916171111595854328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5916171111595854322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e065035b2f542794481dfd72fb70b3a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _duration: 1
+  _intensity: 8
 --- !u!1 &5916171111642088264
 GameObject:
   m_ObjectHideFlags: 0
@@ -72210,6 +72332,7 @@ GameObject:
   - component: {fileID: 5057093755906369608}
   - component: {fileID: 5916171111306233769}
   - component: {fileID: 5916171111306233768}
+  - component: {fileID: 5946463785258906267}
   m_Layer: 0
   m_Name: Carpeta Lefort
   m_TagString: Untagged
@@ -72217,6 +72340,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5946463785258906267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5946463785258906266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e065035b2f542794481dfd72fb70b3a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _duration: 1
+  _intensity: 8
 --- !u!33 &5954908571562440081
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -72269,7 +72406,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7108101780908694723}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0, z: 0.0836}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1262382279633667087}
@@ -72317,7 +72454,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7108101780513946816}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.042}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1262382280046322700}
@@ -72888,7 +73025,7 @@ MonoBehaviour:
   m_PointlightHDType: 1
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 3500
+  m_Intensity: 7000
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -73023,7 +73160,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1099.2584
+  m_Intensity: 2198.5168
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -73498,9 +73635,29 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1086329031798868333, guid: da08b68a7b9db1f4781a540a6c2ee62d,
+        type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1086329031798868333, guid: da08b68a7b9db1f4781a540a6c2ee62d,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1762337297471211231, guid: da08b68a7b9db1f4781a540a6c2ee62d,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930344499578990005, guid: da08b68a7b9db1f4781a540a6c2ee62d,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930344499578990005, guid: da08b68a7b9db1f4781a540a6c2ee62d,
+        type: 3}
+      propertyPath: looping
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1969788377165896704, guid: da08b68a7b9db1f4781a540a6c2ee62d,
@@ -73812,6 +73969,16 @@ PrefabInstance:
         type: 3}
       propertyPath: EmissionModule.rateOverDistance.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180452709611878942, guid: da08b68a7b9db1f4781a540a6c2ee62d,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180452709611878942, guid: da08b68a7b9db1f4781a540a6c2ee62d,
+        type: 3}
+      propertyPath: looping
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8810776421948443722, guid: da08b68a7b9db1f4781a540a6c2ee62d,
         type: 3}
@@ -93860,6 +94027,7 @@ GameObject:
   - component: {fileID: 1780136084423752553}
   - component: {fileID: 5916171110574331760}
   - component: {fileID: 5916171110574331761}
+  - component: {fileID: 7537114391052917770}
   m_Layer: 0
   m_Name: Carpeta Lefort003
   m_TagString: Untagged
@@ -93867,6 +94035,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7537114391052917770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7537114391052917769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e065035b2f542794481dfd72fb70b3a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _duration: 1
+  _intensity: 8
 --- !u!1 &7574650670314210657
 GameObject:
   m_ObjectHideFlags: 0
@@ -93898,6 +94080,7 @@ GameObject:
   - component: {fileID: 7987550173618711174}
   - component: {fileID: 5916171111442543119}
   - component: {fileID: 5916171111442543104}
+  - component: {fileID: 7792429252313796717}
   m_Layer: 0
   m_Name: Carpeta Lefort001
   m_TagString: Untagged
@@ -93905,6 +94088,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7792429252313796717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7792429252313796716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e065035b2f542794481dfd72fb70b3a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _duration: 1
+  _intensity: 8
 --- !u!33 &7952818649880412183
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -94535,6 +94732,7 @@ GameObject:
   - component: {fileID: 427284151141590106}
   - component: {fileID: 5916171111440437494}
   - component: {fileID: 5916171111440437493}
+  - component: {fileID: 9111820640078661268}
   m_Layer: 0
   m_Name: cardbox_A001
   m_TagString: Untagged
@@ -94542,6 +94740,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9111820640078661268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9111820640078661267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e065035b2f542794481dfd72fb70b3a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _duration: 1
+  _intensity: 8
 --- !u!1 &9168314447950338145
 GameObject:
   m_ObjectHideFlags: 0
@@ -94593,6 +94805,7 @@ GameObject:
   - component: {fileID: 2106300083648147442}
   - component: {fileID: 5916171110999400032}
   - component: {fileID: 5916171110999400033}
+  - component: {fileID: 9179357242067276128}
   m_Layer: 0
   m_Name: cardbox_A
   m_TagString: Untagged
@@ -94600,3 +94813,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9179357242067276128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179357242067276127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e065035b2f542794481dfd72fb70b3a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _duration: 1
+  _intensity: 8

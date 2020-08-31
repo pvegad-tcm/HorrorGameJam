@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: Clean up your mess
   Tasks:
-  - Pick up mop
+  - Pick up bucket
   - Clean stain
