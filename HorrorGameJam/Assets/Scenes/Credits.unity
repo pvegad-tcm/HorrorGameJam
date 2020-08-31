@@ -187,6 +187,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &260338819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 260338821}
+  - component: {fileID: 260338820}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &260338820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260338819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Credits_Music
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!4 &260338821
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260338819}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 864.68274, y: -134.06801, z: -152.44373}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &676976312
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,7 +714,7 @@ Canvas:
   m_GameObject: {fileID: 890325851}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -720,7 +774,7 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: -7193685301789664275, guid: f420cdb356646d443b7fda9ef00f9b52, type: 2}
+  - key: {fileID: -9011691325512462327, guid: f420cdb356646d443b7fda9ef00f9b52, type: 2}
     value: {fileID: 1385678255}
   m_ExposedReferences:
     m_References: []
@@ -804,8 +858,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: -612}
-  m_SizeDelta: {x: 506, y: 547.2026}
+  m_AnchoredPosition: {x: -0.000091553, y: -1062}
+  m_SizeDelta: {x: 1920, y: 1079.9998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1385678255
 Animator:
@@ -845,9 +899,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Victor L\xF3pez - Artist\n\nNat\xE0lia Puig - Artist\n\nAlan Elwood -
-    Designer\n\nJoan Cuch - Designer\n\nRicard Cabezas - Programmar\n\nPol Vega -
-    Programmer\n\n??? - Sound Designer"
+  m_text: "Victor L\xF3pez - Artist\n\n\n\nNat\xE0lia Puig - Artist\n\n\n\nJoan Cuch
+    - Designer\n\n\n\nAlan Elwood - Designer\n\n\n\nRicard Cabezas - Programmer\n\n\n\nPol
+    Vega - Programmer\n\n\n\nOleg Tyutyunnukov - Sound Designer"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -990,6 +1044,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4966674555671875931, guid: 52297f8c9c1658c4ab495c31c1163b4c,
+        type: 3}
+      propertyPath: _sceneToLoad
+      value: MainMenu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52297f8c9c1658c4ab495c31c1163b4c, type: 3}
