@@ -480,7 +480,7 @@ MonoBehaviour:
   m_Name: FMODEventPlayable
   m_EditorClassIdentifier: 
   eventLength: 4.841
-  eventName: event:/Light_Bulb_Ladder/RotateLightBulb
+  eventName: event:/RotateLightBulb_new
   stopType: 0
   parameters: []
 --- !u!114 &6007486209444354692
@@ -572,7 +572,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: RotateLightBulb
+    m_DisplayName: RotateLightBulb_new
   m_Markers:
     m_Objects: []
 --- !u!114 &6058046632144661955
